@@ -89,7 +89,11 @@
                         <viewLayoutGuide key="safeArea" id="M3a-VU-ZBe"/>
                     </view>
                     <navigationItem key="navigationItem" title="詳細" id="gaE-Gy-tRW">
-                        <barButtonItem key="rightBarButtonItem" systemItem="trash" id="179-AE-a4n"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="trash" id="179-AE-a4n">
+                            <connections>
+                                <action selector="delete" destination="U4y-NI-plA" id="aQ6-lc-Rik"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="memoTextView" destination="KFe-n4-k5N" id="p6C-xr-POh"/>

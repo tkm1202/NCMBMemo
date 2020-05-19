@@ -18,7 +18,7 @@ class ListViewViewController: UIViewController,UITableViewDataSource,UITableView
         super.viewDidLoad()
         memoTableView.delegate = self
         memoTableView.dataSource = self
-        
+        memoTableView.tableFooterView = UIView()
         // Do any additional setup after loading the view.
     }
     

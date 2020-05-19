@@ -1,8 +1,17 @@
 PODS:
+  - CDAlertView (0.10.0)
   - NCMB (3.1.0)
+  - Siren (5.4.0)
 
 DEPENDENCIES:
+  - CDAlertView
   - NCMB (from `https://github.com/NIFCLOUD-mbaas/ncmb_ios.git`)
+  - Siren
+
+SPEC REPOS:
+  trunk:
+    - CDAlertView
+    - Siren
 
 EXTERNAL SOURCES:
   NCMB:
@@ -14,8 +23,10 @@ CHECKOUT OPTIONS:
     :git: https://github.com/NIFCLOUD-mbaas/ncmb_ios.git
 
 SPEC CHECKSUMS:
+  CDAlertView: ee6a87c90c4283c8d316d55633db1a6981f1cc51
   NCMB: c308972109137bf523ec1830bac16de6a31c25f4
+  Siren: 9df16ed5278cfaad7ea034f3d2206e4f6983e9b8
 
-PODFILE CHECKSUM: e52225d2c34ac023d0aea0312abc76431ac0229c
+PODFILE CHECKSUM: 968cd80320cd534393ea4fb471bf6e372e9c1c93
 
 COCOAPODS: 1.9.1

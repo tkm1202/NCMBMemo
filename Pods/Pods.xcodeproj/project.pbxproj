@@ -3,205 +3,357 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02B4B0B25E5505DFF432C9CC06150C54 /* NCMBScript.m in Sources */ = {isa = PBXBuildFile; fileRef = B102B47AB12EDE605A7B6CD59166B06E /* NCMBScript.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		0DBA7CEE62B7F9ABD255138C509AB697 /* NSDataBase64Encode.m in Sources */ = {isa = PBXBuildFile; fileRef = 6853E7735CD341A197578AC33BDED8F2 /* NSDataBase64Encode.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		0DEBDA83AD44D333BB2BDF2DF1C40545 /* NCMBInstallation.h in Headers */ = {isa = PBXBuildFile; fileRef = A80B584FA52B2A4372834D8AF3579CC6 /* NCMBInstallation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		133E10019DBB0634FBA4EDC0A452560A /* NCMBCloseImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD77A4990009AFB43F9843C8B9557634 /* NCMBCloseImageView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		16DE34B66EC956DF0D01375BBE8408CC /* NCMB.h in Headers */ = {isa = PBXBuildFile; fileRef = AED308D4F61B71ABD18E73E5C9FA5D1F /* NCMB.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1B68CF4A7D6312EDC0B57698C645610B /* NCMB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69D1535DC1B8190DCE1744B016EA6C18 /* NCMB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1CD30B7E10E79B7A8A9735C060EAF685 /* NCMBConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CDAF2570C449CC91A8FA7B0256DD0C4 /* NCMBConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1E2F694A78E1E9F56D150C12943E843C /* NCMBScript.h in Headers */ = {isa = PBXBuildFile; fileRef = F6723AF2275FB17C11749D5F9FA828E8 /* NCMBScript.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2105C04A75D22BE1EC49A6C7BCDF1B90 /* NCMBDateFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F9F157357C56B897F54F098805FC21 /* NCMBDateFormat.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		233B31A6CDED4A72A6C92D27033B465E /* NCMBIncrementOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = BCDF8C8CEB158B148EF488678A0E36CE /* NCMBIncrementOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		235679ED5482BC7C7A5C184E9E8FD2D3 /* NCMBURLSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 88DF1B7FD9179942AD6637436F83B683 /* NCMBURLSession.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		2D8A0319E29347C130D01CEBA5DDBA64 /* SubClassHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D34254109CE7894CA409FA3C2F0FA627 /* SubClassHandler.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		2E4E1F3D3E97859F8A0FBF0C83D8B69F /* NCMBRelation+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 70CFC178CDB3F7F6F137048C76E42FFD /* NCMBRelation+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		30159E26716576A31C8B7A842C5EDA5D /* NCMBError.h in Headers */ = {isa = PBXBuildFile; fileRef = 96FADE53C549E6487B227A82CC494606 /* NCMBError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02B4B0B25E5505DFF432C9CC06150C54 /* NCMBScript.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E95CE597EFB44E5BBC61C46DAA58C1 /* NCMBScript.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		04EDE5DD9435F952211C2E1D5B48EC87 /* notificationOutline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61CBDF660C04DBF4CFC39BCC3434924E /* notificationOutline@2x.png */; };
+		056BF50CF7609C11D94EBC1F8CD88C1C /* notificationFilled@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 142A93090543BB428A25E64F08D2AC81 /* notificationFilled@1x.png */; };
+		05F66DC92575A29ED168E1E8FD72FD4C /* UIAlertControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AB764493914A6857F25FCA6BCFF5EE /* UIAlertControllerExtension.swift */; };
+		09D35842B7A2E366F6485070744C38CF /* Pods-NCMBMemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B69EE06CEF4B6A6D7258B21F56DD1030 /* Pods-NCMBMemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DBA7CEE62B7F9ABD255138C509AB697 /* NSDataBase64Encode.m in Sources */ = {isa = PBXBuildFile; fileRef = A59E72A5B22BACFE56ADA33A842053C2 /* NSDataBase64Encode.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0DEBDA83AD44D333BB2BDF2DF1C40545 /* NCMBInstallation.h in Headers */ = {isa = PBXBuildFile; fileRef = D85C0006DBD93A99CBC3930923276BE0 /* NCMBInstallation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F40AC97654318A41BED5B454FBA9D41 /* error@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D323FFE81A0A2565816173BEC43A769 /* error@3x.png */; };
+		133E0626134290ECCB2F13D75F47EEAC /* BundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CA26E08178332120BA1BBFF5C56404 /* BundleExtension.swift */; };
+		133E10019DBB0634FBA4EDC0A452560A /* NCMBCloseImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F91A881CBCB5B1A3A91BC7CECEBCF34 /* NCMBCloseImageView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		134605856BCD5D0F203083C9B8E0B882 /* warningFilled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80C5DA56881E977C5D43572EADBDBCB2 /* warningFilled@2x.png */; };
+		141277A59ABE2FA9FE18839FCF1DE9D6 /* notificationFilled@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6FD67DAEA98F2E521F3E9E6958938E7 /* notificationFilled@3x.png */; };
+		16DE34B66EC956DF0D01375BBE8408CC /* NCMB.h in Headers */ = {isa = PBXBuildFile; fileRef = D6DD8FF3C506B4D3DACEE42B294A282E /* NCMB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1715CA297029445CEDA6BAFD19CE7D60 /* warningOutline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEFEE1568E455BB83E725CE5C9D858C4 /* warningOutline@2x.png */; };
+		1A314346D4AD0D01BB4575A7496FD1FE /* alarmFilled@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6D3A1544CE14992EFAB6D77F2965CC2 /* alarmFilled@1x.png */; };
+		1B68CF4A7D6312EDC0B57698C645610B /* NCMB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 611291E00F6F212862F8B061D95027C1 /* NCMB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BE2670632CF554CFF73C45294301BB9 /* notificationOutline@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61F669D7CB72B79D580052116CEA9EB7 /* notificationOutline@3x.png */; };
+		1C2537619CE322E437E2279BD24F3B53 /* PresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86493C00A46F85A1DF2FD441B0DFAE93 /* PresentationManager.swift */; };
+		1CD30B7E10E79B7A8A9735C060EAF685 /* NCMBConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DA6A37B44B4782384E14D65663B282C /* NCMBConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DAE8F00388896025CF1F93FDF18AAE4 /* alarmFilled@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FB161D772498486D847C9BB0279A177 /* alarmFilled@3x.png */; };
+		1E2F694A78E1E9F56D150C12943E843C /* NCMBScript.h in Headers */ = {isa = PBXBuildFile; fileRef = 25691DEB8E8A2C7D91194755279BAA64 /* NCMBScript.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2105C04A75D22BE1EC49A6C7BCDF1B90 /* NCMBDateFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6000CEAFCCA1C362BE524878F745DE /* NCMBDateFormat.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		21C8DD3D989FAEB810C122DABA08AE7B /* alarmOutline@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AD07327F4D34FBDE152DD47FCD50049 /* alarmOutline@1x.png */; };
+		233B31A6CDED4A72A6C92D27033B465E /* NCMBIncrementOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 86411A6FDFA2A0C3A27D57D3A197CFDD /* NCMBIncrementOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		235679ED5482BC7C7A5C184E9E8FD2D3 /* NCMBURLSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 5266F50F87487E9B0739C7D7C54E7461 /* NCMBURLSession.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		297080A4D44C2196AA466E8F2E7E542C /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCF01E6BA4C94F75B7AA2650C09AACA /* Localization.swift */; };
+		2D8A0319E29347C130D01CEBA5DDBA64 /* SubClassHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEF51D615BBCE64BE4CF7DC84D226E6 /* SubClassHandler.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2E4E1F3D3E97859F8A0FBF0C83D8B69F /* NCMBRelation+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 1729782C7541B7ABEA9A07B3BA4F9A0C /* NCMBRelation+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		300BFA96943FCEFAFFEE2B95C9906091 /* check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08EAAF9F03E4D6DFEFE1054A5C52480A /* check@2x.png */; };
+		30159E26716576A31C8B7A842C5EDA5D /* NCMBError.h in Headers */ = {isa = PBXBuildFile; fileRef = 6293376DE3416D38CAA6992ED1731072 /* NCMBError.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35D7B3C29A8CEA268FD69CC6D4B0D4BB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45CCE527F1FE23843FABDEB6560AA3D /* SystemConfiguration.framework */; };
-		3694B544C055AAD13F9C5E390DC0AA67 /* NCMBRemoveOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE8E610CD1C00DF4558D8530D367E63 /* NCMBRemoveOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		36B76D90D021A61EACB1F6EBD9B25C67 /* NCMBObject.h in Headers */ = {isa = PBXBuildFile; fileRef = DC630898AB53ABCB4E1AA6D87CE64BAA /* NCMBObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3BE5E756C7596D1926C4473A11D250F2 /* NCMB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4E86FB67F26834CAAE86B0A0094D9B /* NCMB-dummy.m */; };
-		3E3F13E5B5442717673EB176FEB1A705 /* NCMBScriptService.h in Headers */ = {isa = PBXBuildFile; fileRef = 706DE79FBF76304B479FAC2C4F6A2D4A /* NCMBScriptService.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		40DC2341C2B66A980153200484996E5E /* NCMBSubclassing.h in Headers */ = {isa = PBXBuildFile; fileRef = B6284D894F2AB9648CD0023DA4EEC30E /* NCMBSubclassing.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		44FF84E5BB3922431F3525CE12BF1A0E /* NCMBRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A9BF8A86E7C8C90809F3ED6ACD45FA /* NCMBRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		4739F5DB423B61D492E13BFA958020A3 /* NCMBRelation.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F219CC6290ADCE205F4E79770FB0EB /* NCMBRelation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		49009F39763798AAD14A0E5F916DBA6A /* NCMBAddOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = A4BE9B7CBB6DE833FD9E18EDF27122AC /* NCMBAddOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4B7D26C9852875341BD68B3C8E015BD7 /* NCMBRole.h in Headers */ = {isa = PBXBuildFile; fileRef = 630EC8519EFFC21C19C0CCA0483626A6 /* NCMBRole.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C8B1D485D4105A483BD3502A6175811 /* NCMBRelationOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = AFA49B9197E7A11683799D9267644B26 /* NCMBRelationOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4CD3719F89B6C6C67A4DCEE5C1D33B3B /* NCMBRelationOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D1787D49010A25ACF1A9A3740BF633AD /* NCMBRelationOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		4E05AE02794DDB6F0DF1B5EEEE20D12B /* NCMBAddUniqueOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9B7AE92A7C65C4F240CE49B1331F7 /* NCMBAddUniqueOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		4E7DBB092F450942553AC6821507E4E2 /* NCMBAddUniqueOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = F251E566F932371C77BCCAF07DCD3FD1 /* NCMBAddUniqueOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		57C4D7A2F060AB5213765A7C888EFE0D /* NCMBReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = FD03ED374DD90B77B558A9EE93F6A2EC /* NCMBReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		58DF144F608E8A4E44A931AB4EBE94D8 /* NCMBAnonymousUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FC404CF7B9E8E682220C6F8C6B5F62 /* NCMBAnonymousUtils.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		590E46C40EB6FDA60C827D88EFAB2F35 /* NCMBRemoveOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CF37589BF3137F84356F660B63FCB96 /* NCMBRemoveOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5A40CAD9634226B8AB3714E9B584A080 /* NCMBObject+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 62F45D0B14D0F0F2CEF952E75C93074D /* NCMBObject+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B3083AA8EAD1E585EC41D72963ED32A /* NCMBQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = E3078038A8109B90D9233EB7D39B0418 /* NCMBQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		65CDFF2AC5DEF4D89F70A99CA906D22F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8C45601B52670C17883296F89122F6F /* Foundation.framework */; };
-		68D5924346B2B5CADB47C3082A7E3B47 /* NCMBFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 73DB56FF1BDE69EF4E91D8F7BCE47709 /* NCMBFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6FACBDB626DB501984B18A4C9EDCF637 /* NCMBIncrementOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB30EF41F9091B89FC50EDE5512BEC8 /* NCMBIncrementOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		760795195DF0A7CB219AE0D679A8BBD5 /* NCMBUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 7830323A3DC0D94313ECB552199A72CF /* NCMBUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7697800F50826F3E69B2A7B907C4DBFA /* NCMBScriptService.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E1CE0AD851488D1DB7671DE5487C15 /* NCMBScriptService.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		772A59133E7B6CEBA36696E3FD7F0AF5 /* NCMBGeoPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4657D4378B47923BD7478273C06F4510 /* NCMBGeoPoint.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		77B1CFC7895256F9B79BC9B4AE09B3B1 /* NCMB.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC707BD27628F8BC48662D00A0A4CBA /* NCMB.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		78FED1755AD35563398A075B9BBB092B /* NCMBObject+Subclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 4532FB18FC856E2AE5FF56C6683818CA /* NCMBObject+Subclass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3694B544C055AAD13F9C5E390DC0AA67 /* NCMBRemoveOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0427DAA8716133C999DF9417CF3D9AEA /* NCMBRemoveOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		36B76D90D021A61EACB1F6EBD9B25C67 /* NCMBObject.h in Headers */ = {isa = PBXBuildFile; fileRef = C49CAD1BB54F5A7D571AA0CBAB5C5315 /* NCMBObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BE5E756C7596D1926C4473A11D250F2 /* NCMB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32324759879C562E1B2735914069EF2C /* NCMB-dummy.m */; };
+		3BF4C13346D27A34093156285C8E0871 /* Siren-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB62E3D6FB25695E48480C278A2CE33 /* Siren-dummy.m */; };
+		3E3F13E5B5442717673EB176FEB1A705 /* NCMBScriptService.h in Headers */ = {isa = PBXBuildFile; fileRef = E3100FB9227CECF5A764C01A6292D9C6 /* NCMBScriptService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40DC2341C2B66A980153200484996E5E /* NCMBSubclassing.h in Headers */ = {isa = PBXBuildFile; fileRef = 2412E63E08C4C5555336D40A0AA6C652 /* NCMBSubclassing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		410BE22E3E90F5D3628E6AAF0B26415B /* alarmOutline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B18A323F74FE37FC6AD425C1663217A /* alarmOutline@2x.png */; };
+		44FF84E5BB3922431F3525CE12BF1A0E /* NCMBRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF26C5B7E408CEC9BAA2E8736B77A89 /* NCMBRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4653AA09838F71BFC8B7A728ABAB2732 /* UserDefaultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF5AAF12F66004D436A96FDB2DB1210 /* UserDefaultsExtension.swift */; };
+		4739F5DB423B61D492E13BFA958020A3 /* NCMBRelation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B79BC9AE3AF3BB290559021535581D5 /* NCMBRelation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		49009F39763798AAD14A0E5F916DBA6A /* NCMBAddOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = BB4703B73EC68B6A1F098683D091CF93 /* NCMBAddOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49468580B9DBEEDAABDA53922A67CDE0 /* SirenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06D4AA399E2E6078012E419DA906881 /* SirenViewController.swift */; };
+		4B7D26C9852875341BD68B3C8E015BD7 /* NCMBRole.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A1E61E8CF7ADD9273C3AABC99E5C9F1 /* NCMBRole.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C8B1D485D4105A483BD3502A6175811 /* NCMBRelationOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = A07738771F53EC71F7CEDE2F5B95BD28 /* NCMBRelationOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CD3719F89B6C6C67A4DCEE5C1D33B3B /* NCMBRelationOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A871F6C9ECB42A89A407446000CE7B67 /* NCMBRelationOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4E05AE02794DDB6F0DF1B5EEEE20D12B /* NCMBAddUniqueOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F5F0D9A501331AE9C8AFC3802ACF87 /* NCMBAddUniqueOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4E7DBB092F450942553AC6821507E4E2 /* NCMBAddUniqueOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = B07A25159A41396CAE331E51F76DB8A9 /* NCMBAddUniqueOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55791DD47B23F1A5CB157815C7B9C89A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C5AF87CB36FF022A0F7BDED8F0B2666 /* UIKit.framework */; };
+		57C4D7A2F060AB5213765A7C888EFE0D /* NCMBReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = C35AC249C010A7DF65C9601086ADD6C1 /* NCMBReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58DF144F608E8A4E44A931AB4EBE94D8 /* NCMBAnonymousUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0857B730CD44A133835F66447278AB39 /* NCMBAnonymousUtils.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		590E46C40EB6FDA60C827D88EFAB2F35 /* NCMBRemoveOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 768D96A3CA8F30F232A9426D6736E6C0 /* NCMBRemoveOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A40CAD9634226B8AB3714E9B584A080 /* NCMBObject+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 7440F0A0A5D75290ED82B95E69F97720 /* NCMBObject+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B3083AA8EAD1E585EC41D72963ED32A /* NCMBQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = B4F73EEA66923EAD05FF768FEE368205 /* NCMBQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CAFBF14933FAC65691E431F94755BA3 /* RulesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C255738A18B4F2E00C4584795752E9C /* RulesManager.swift */; };
+		5EF00CBA62E8E1527DD2752308303333 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8C45601B52670C17883296F89122F6F /* Foundation.framework */; };
+		60A7C13CEB175774C3C3AAB55A7905AD /* CDAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66F82A7DF8EEDAD4BBFA323EAF60BCD6 /* CDAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		628EBDD8B974F49CFB058769C03138BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8C45601B52670C17883296F89122F6F /* Foundation.framework */; };
+		65C14DD94A9DF06FB60F29787A5BFF3A /* DataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD1429C11C77C38C43AD491AA46277 /* DataParser.swift */; };
+		68D5924346B2B5CADB47C3082A7E3B47 /* NCMBFile.h in Headers */ = {isa = PBXBuildFile; fileRef = F0AA66AD272FA2DBAB00A783CDC95D72 /* NCMBFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E5F2E9749023D8104A6E4C54AA452BA /* warningFilled@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3F9E50B50DB40002F25202B37DA0FC8 /* warningFilled@1x.png */; };
+		6FACBDB626DB501984B18A4C9EDCF637 /* NCMBIncrementOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA97D2FEA1D672DB12AA62C60E251AA /* NCMBIncrementOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		760795195DF0A7CB219AE0D679A8BBD5 /* NCMBUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E3307F7F50C24F2BDB5A5ABAFCECFFB /* NCMBUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7697800F50826F3E69B2A7B907C4DBFA /* NCMBScriptService.m in Sources */ = {isa = PBXBuildFile; fileRef = D983D2218395289B290EB6AAFEDD6EBA /* NCMBScriptService.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		772A59133E7B6CEBA36696E3FD7F0AF5 /* NCMBGeoPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = D869C323D2999BF6B06EC2B658818E82 /* NCMBGeoPoint.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7795E3F4556B24FF0DACCC4CC9F1E7B0 /* CDAlertView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E417FD65D5A1F9B3171583531D47A61C /* CDAlertView.bundle */; };
+		77B1CFC7895256F9B79BC9B4AE09B3B1 /* NCMB.m in Sources */ = {isa = PBXBuildFile; fileRef = 186922509FEFBC3104CC16BED10BB060 /* NCMB.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		78FED1755AD35563398A075B9BBB092B /* NCMBObject+Subclass.h in Headers */ = {isa = PBXBuildFile; fileRef = BAC8CCD50EB56359779FE1E320E17303 /* NCMBObject+Subclass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7918FEBCB040FBDDD5457A53E663FC2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C5AF87CB36FF022A0F7BDED8F0B2666 /* UIKit.framework */; };
-		7CF306F71F7785D8B4B6CA3F88711865 /* NCMBDateFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = AADEE382DD235BAC1D177378F8D8BBAE /* NCMBDateFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7D1C7728C41ABDBAFC43F56D62D2098C /* NCMBUser+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = ACAE6DFE09A538E88D0101BF67AD7428 /* NCMBUser+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CF306F71F7785D8B4B6CA3F88711865 /* NCMBDateFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 56BF8B68BFD8847C6A86A9E68DBA587C /* NCMBDateFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D1C7728C41ABDBAFC43F56D62D2098C /* NCMBUser+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = A475BFF880AA1F38D04498985A5A0061 /* NCMBUser+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7EAE0D0DFB6B9FA23969174BD33433DC /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9151808E85BDAFEA45F6BED666EFC76 /* MobileCoreServices.framework */; };
-		847F2E48BA1F085DB9AB6E5A83A7A164 /* NCMBSetOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D5AD13EFB125223215747621A9D396C /* NCMBSetOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8A54D2C093B5CD338EBFF1E854D82C55 /* NCMBQuery+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 84816E17D7650CDB3B6E1C0972ECC122 /* NCMBQuery+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8ABB9A811F9AB196DFEBDDFF6C38CE9B /* NCMBInstallation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A84FC0EF38E2B7C0BBDFF4CAE9BAF14 /* NCMBInstallation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		8D01A2C70622E7BC4A4DC34D239FA8F2 /* NCMBGeoPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D001D6CAEC3AA38BDFDE3D647A44C18 /* NCMBGeoPoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8DBF76F8FFE6CD81EC98ACC7C1938374 /* NCMBRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5E1A6FC2012CD5373CFC7FF064F247 /* NCMBRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F1903D6C12E2D38EFC8C1B944280544 /* NCMBACL.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EDE251C20857B1F899DF985A6B5C0D /* NCMBACL.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		946C6015181D606182F36C7551D69134 /* NCMBCloseImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 489A5C7C9F65AAD50220820DDEA328FA /* NCMBCloseImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9973688E7F77B2933FEC6A4AA9CEDA30 /* NCMBAddOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0496CBD267A48BADAE37C8E180FD3D7B /* NCMBAddOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		9A4289C276C14E012AA95D6E5A55A9D1 /* NCMBRelation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A045B22986A552EBAFFFA7F7F6885CF /* NCMBRelation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A6A3DE13D25C6D768E57DF35726E780 /* NCMB_umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FE9B2EC9BBE4B198F35B4ED0A3A6534 /* NCMB_umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AA509C5E700502B53E906ECB0BF6F7A /* NCMBDeleteOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A8B8D2BA09A83761A00FE6E5BE6D35E /* NCMBDeleteOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		9E8C34F37923E91E4B7C416DFC962CCA /* Pods-NCMBMemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CABC31310CC33244A09A90655ADF0B79 /* Pods-NCMBMemo-dummy.m */; };
-		A65CC7CD5D63B34CC62E36A784129043 /* NCMBRole.m in Sources */ = {isa = PBXBuildFile; fileRef = 5757946E6397533D1C5B0700C40631D7 /* NCMBRole.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7F62581E50C7FBED525FFE588EA2C72D /* alarmOutline@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECBBBD44A592A6BA87E0E7D9680A8426 /* alarmOutline@3x.png */; };
+		83D4BD45CF1B1ACD1919AA7401119D09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8C45601B52670C17883296F89122F6F /* Foundation.framework */; };
+		847F2E48BA1F085DB9AB6E5A83A7A164 /* NCMBSetOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 641473896D27DEEA661C9AFFFBD378D6 /* NCMBSetOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		854DFD1C840A420BEAEE3CDC4E1698A1 /* KnownError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237659F42D92A862B5A098A87E9A817B /* KnownError.swift */; };
+		8A54D2C093B5CD338EBFF1E854D82C55 /* NCMBQuery+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 03FBDAC2DEA7F9B21BE8FDF89F63FC71 /* NCMBQuery+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8ABB9A811F9AB196DFEBDDFF6C38CE9B /* NCMBInstallation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED9EDFE6E927C8571B0891C53C01C9D /* NCMBInstallation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8C5617D5664B5B96CBFA2E73E24FCD5D /* Siren.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54F02C1A24366277AE4DBB8898229D5 /* Siren.swift */; };
+		8D01A2C70622E7BC4A4DC34D239FA8F2 /* NCMBGeoPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = F248094E7BBB6AEA2503AD6E20549610 /* NCMBGeoPoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DBF76F8FFE6CD81EC98ACC7C1938374 /* NCMBRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D2A23CE2C022A5EEED27A9283E616C2 /* NCMBRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F1903D6C12E2D38EFC8C1B944280544 /* NCMBACL.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB32319223E1648FADE7B286E52FCDD /* NCMBACL.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		938AFDF901391B92DFA3499252471CA6 /* CDAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C806AB315039684627F2E430051608A3 /* CDAlertView.swift */; };
+		946C6015181D606182F36C7551D69134 /* NCMBCloseImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = BAFF79BE13911D95B06D5BE17C6CB8B2 /* NCMBCloseImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97A7BC70F5C2B80E8BD698FF4F76D3EA /* Siren.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 64174420E09D629DC750BEB0B09A5C5D /* Siren.bundle */; };
+		9973688E7F77B2933FEC6A4AA9CEDA30 /* NCMBAddOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8A09BC38415C44A8E63FC8BA209A08 /* NCMBAddOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9A4289C276C14E012AA95D6E5A55A9D1 /* NCMBRelation.h in Headers */ = {isa = PBXBuildFile; fileRef = DF039E3DB9DFAE0971003E04E1F5D4BF /* NCMBRelation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A6A3DE13D25C6D768E57DF35726E780 /* NCMB_umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4CF8092D90466DFBB192D10E6BFAD1D /* NCMB_umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AA509C5E700502B53E906ECB0BF6F7A /* NCMBDeleteOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DBD91D682B4A127BD3B30A5A9848C6 /* NCMBDeleteOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9CC2ED552A33A9E078F82629E203F2BB /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1ED1C6A96D0C0ED679E70B762F56891 /* ImageHelper.swift */; };
+		A16C86D03E90FA8A37257BFC7AD2639B /* notificationOutline@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CE9026ABBAFB9C683A8E266FA33DE49 /* notificationOutline@1x.png */; };
+		A22F41F8672D37C174EAF92AAEF4FD9B /* Rules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9471723ED8E5D16BFF0B45AAB45A7083 /* Rules.swift */; };
+		A2443E13B887821B170511DF6A62C8E7 /* CDAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF31CA75AC734A817B959D94182B594 /* CDAlertView-dummy.m */; };
+		A342EC9CFF82B7DB72A0E318E6106496 /* LayoutConstraintsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6B3D791E9DA0525CB29CD2A2A8897D /* LayoutConstraintsExtension.swift */; };
+		A65CC7CD5D63B34CC62E36A784129043 /* NCMBRole.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E3F617832DB6AB7D60AA6C1B5F82FD /* NCMBRole.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		A796D6973AE13D5D8EE83AF931A0AA2C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DE5147A4272A57EF69294AD421B608 /* AudioToolbox.framework */; };
-		A9608BB8B6E58305E4BED378910598F4 /* NCMBAnonymousUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = F07E4424E874856DFE69043A059898BD /* NCMBAnonymousUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD92507DFD89C6F9DA643E25E868EEC6 /* NCMBReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A79E28DFCFD4DB953F3CAD3E39555D58 /* NCMBReachability.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		AE5B61760B4E71E0B8FF5B2738DD267F /* NCMBURLSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 585EC433E87B39F629041E972CD489C7 /* NCMBURLSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AF0BDA7D5690A8683A97D7FBC7E25505 /* NCMBRichPushView.m in Sources */ = {isa = PBXBuildFile; fileRef = F00D4B1BABFAACD4E9B22D0022B335A7 /* NCMBRichPushView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		AF903933107BFCE5990DAD2D7072E6EC /* NCMBRichPushView.h in Headers */ = {isa = PBXBuildFile; fileRef = CCDD188A5B5FA79EDB7FD2DDC61C03F5 /* NCMBRichPushView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B6974266705E676BE4F99201AC65A279 /* SubClassHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 470247C713ED93AFD8482CCEAB0E0EE5 /* SubClassHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BD29DB0A3314538D17AEA75111865F17 /* NCMBSetOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6BF39AA9DBD3E41C18B48FF3031DA2 /* NCMBSetOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		C69E5A713298D8A5C407322DF9890711 /* NCMBACL.h in Headers */ = {isa = PBXBuildFile; fileRef = 14F6B28B9215CFCF6A9758A99F4AFAAE /* NCMBACL.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C8C0351B8121771796D790AC52722BC2 /* Pods-NCMBMemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B69EE06CEF4B6A6D7258B21F56DD1030 /* Pods-NCMBMemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CA50F45DBABF604EA91CC24BB899B7C1 /* NCMBUser.m in Sources */ = {isa = PBXBuildFile; fileRef = F99F502D6CF22C79D693660E3483C554 /* NCMBUser.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		CC42550E948BD51E7B6EC3CE30864307 /* NCMBError.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E4D5C21D784D83FC7073AA4B1CA549 /* NCMBError.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		CDE54DA0F603F6571D170609C3BC03AE /* NCMBPush.m in Sources */ = {isa = PBXBuildFile; fileRef = E8251233576B22B00DC4B2B8E1BE22D1 /* NCMBPush.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		D23E0E2AEE2B75F8740AB899D3917457 /* NCMBDeleteOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 259E908299BCA20044BE2E1647328FD3 /* NCMBDeleteOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D32898411FA97F54A5F01574A765CFC1 /* NCMBAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B28075587E2FD5B76FA2E94C065EE02 /* NCMBAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8C2C38766F9949E7B59DB98E47C141F /* NCMBObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 310B478EFD19A07EDE76F6AB3159EB32 /* NCMBObject.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		E2846A9E50EAF8DBE210BB5E4E52B028 /* NCMBPush.h in Headers */ = {isa = PBXBuildFile; fileRef = DF960FEEE11121EBFA04C384666A021D /* NCMBPush.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E533773C27147789164643D2DC9DBC1E /* NCMBFile.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DDD097B8C598932C007D364AC23713 /* NCMBFile.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		EB37F6F76E2AF88297D18E0065B6863B /* NCMBQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F44808C2CE50ED5ECCF6501F9B4DEAE /* NCMBQuery.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		F3E13455C20E05924A7E38E0789EA716 /* NSDataBase64Encode.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D94C595BA7406043DA1078619B0D37D /* NSDataBase64Encode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7982633BE5209839C7E0D37E932A4FF /* error@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2E2BB861CC1A2C2BBCFA6698E680BA5 /* error@1x.png */; };
+		A89B27A82ECFDCDDBDB3DA4214A51F84 /* PerformCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188AB4B7D71C51F7A1AD41FF4C5722AA /* PerformCheck.swift */; };
+		A9608BB8B6E58305E4BED378910598F4 /* NCMBAnonymousUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 0650E64FA2C461FE918F25B8E26172B6 /* NCMBAnonymousUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD77B9A7707F2C36975F00395C7F56C0 /* warningOutline@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7EEE14A0DECB21A09C4ED1C42CB890D /* warningOutline@3x.png */; };
+		AD92507DFD89C6F9DA643E25E868EEC6 /* NCMBReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8FBE6368B2269FCC02D1E0C6AEF5CF /* NCMBReachability.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AE3E362CE36A496D2C05596BD974C530 /* CDAlertHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C6063A03E91E930F037D7C782A7A68 /* CDAlertHeaderView.swift */; };
+		AE5B61760B4E71E0B8FF5B2738DD267F /* NCMBURLSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 736F16B2C2BC25119B830357575ED418 /* NCMBURLSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF0BDA7D5690A8683A97D7FBC7E25505 /* NCMBRichPushView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21825A2399886A0E12253A47762CE5DB /* NCMBRichPushView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AF903933107BFCE5990DAD2D7072E6EC /* NCMBRichPushView.h in Headers */ = {isa = PBXBuildFile; fileRef = EEC11B1AD50FCF54985B2201FC71A89A /* NCMBRichPushView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B47F397D57A105976F1667FD2D2E952A /* warningOutline@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DEE5CF0B8B60CBFF73F63A56F6BC3BB /* warningOutline@1x.png */; };
+		B6974266705E676BE4F99201AC65A279 /* SubClassHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 91FADAB7815E3BB07F4BCBD90B274AF3 /* SubClassHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B970946E2CC2A6D0E6FB6721DBCF1BE0 /* UpdateResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12DFFE75F864AFB1D7A8313DF0B226E /* UpdateResults.swift */; };
+		BD29DB0A3314538D17AEA75111865F17 /* NCMBSetOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9AF247BC5346EB08A18AE7635E31EB /* NCMBSetOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BF7CB899C8BCD08F7822E36F103D8C70 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC961CB8A4B243C60FCD31A1FC6AA3A6 /* Model.swift */; };
+		C3077748FAD14B032F7AD71A7CEAF4E4 /* APIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7092ACC729A2385E53C3794422EC26CE /* APIModel.swift */; };
+		C4E0FA33AEDF46A51B64588DC4B1B014 /* notificationFilled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C50C08ED07A58D82E4C6B21083E36EE9 /* notificationFilled@2x.png */; };
+		C69E5A713298D8A5C407322DF9890711 /* NCMBACL.h in Headers */ = {isa = PBXBuildFile; fileRef = 94FC446B2CEB28A5862E4AF39EFFEAFA /* NCMBACL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA50F45DBABF604EA91CC24BB899B7C1 /* NCMBUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B7A6FD1EC891A7BA9323D565B4D171 /* NCMBUser.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CAD9D95EC71EFE9889E432399A6CF5F8 /* warningFilled@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7765B0987AD200B22C4A2766ADFE6709 /* warningFilled@3x.png */; };
+		CC42550E948BD51E7B6EC3CE30864307 /* NCMBError.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A4D24FC3A56D2698646780AC7882AA /* NCMBError.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CCA6031B895A3FE7666514D458FFC411 /* error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1155A14246F529130A8342F8A9FAE13 /* error@2x.png */; };
+		CDE54DA0F603F6571D170609C3BC03AE /* NCMBPush.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5C7E002ECF6540A92D5DD9FA48055C /* NCMBPush.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D0E33C7A69D704F37F77347572412086 /* check@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB14720B26DC8ADDD0BF98A2346A1207 /* check@1x.png */; };
+		D23E0E2AEE2B75F8740AB899D3917457 /* NCMBDeleteOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = B1705002365C424EDCE479D29E9107D2 /* NCMBDeleteOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D32898411FA97F54A5F01574A765CFC1 /* NCMBAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 74081643304BCD38C851FCD520069685 /* NCMBAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8C2C38766F9949E7B59DB98E47C141F /* NCMBObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E891E6662E183290D8BAE0BCDC304F /* NCMBObject.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DB97B26F95E40242DF97B45834515E08 /* Pods-NCMBMemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CABC31310CC33244A09A90655ADF0B79 /* Pods-NCMBMemo-dummy.m */; };
+		E2846A9E50EAF8DBE210BB5E4E52B028 /* NCMBPush.h in Headers */ = {isa = PBXBuildFile; fileRef = E12BAA3BEBF1BB9ABBB63FC81AB51076 /* NCMBPush.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2E993BFDABB259A66775EF1F5B8AC10 /* AlertAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08C126240ADAA3C7F79D5D2E9A883F7 /* AlertAction.swift */; };
+		E4E992FF7FF7A205CA9BAC7FAD7358AA /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84238DE9845945A8B9072E843B00062 /* DateExtension.swift */; };
+		E533773C27147789164643D2DC9DBC1E /* NCMBFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CFA1D1A8F42E124C8577DCD0048A99 /* NCMBFile.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E836D575C26F51F4F86D1AAF037D227E /* AlertConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1979777A48391E65D5761DEA7EEEAF /* AlertConstants.swift */; };
+		EB37F6F76E2AF88297D18E0065B6863B /* NCMBQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F2D9BFD5DC2F40ED08224FB5197E32 /* NCMBQuery.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EEFD171C29E9BC49872092BBE1D7F753 /* alarmFilled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BED3AF839A6F74D0410AAD1A3ADC6981 /* alarmFilled@2x.png */; };
+		F3E13455C20E05924A7E38E0789EA716 /* NSDataBase64Encode.h in Headers */ = {isa = PBXBuildFile; fileRef = FAEBDD97B9F60A2F6FE935CB635ACBE4 /* NSDataBase64Encode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F42505CB05F16256F94DF0A2FD80120F /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92673BF478B8272C6DE82AA6145F77A0 /* APIManager.swift */; };
+		F495953C822AB3C8F76F889D46F3CCAB /* Siren-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E4A9DF2575A97F8FF2C1639079B3485 /* Siren-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F858EF88FE4F43277497E2569C92B378 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8C45601B52670C17883296F89122F6F /* Foundation.framework */; };
-		FB5750C8EC4E9499CFE40E099ECACD87 /* NCMBAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = BE43B326B600716EBE11F189C50D8774 /* NCMBAnalytics.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FB5750C8EC4E9499CFE40E099ECACD87 /* NCMBAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 2515136550DA82309AE09F3821A1ED2C /* NCMBAnalytics.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FE05B34119A65F2C1F4F6FAC5E6B3A9E /* check@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AD8611F72C978CCCF2085B098CA96F2 /* check@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C575251D1E022DFCB23BA2CE6508A2DC /* PBXContainerItemProxy */ = {
+		044ED514F3905143A5BF2F26C3040B86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0E2640B83527AE54205D7FDE9C5D930;
+			remoteInfo = Siren;
+		};
+		07BBFF311D8F8964BC971526EEECB22A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F08944E713B18D3C01A791D5A3614D1F;
+			remoteInfo = "CDAlertView-CDAlertView";
+		};
+		3044C684226295237BE912557F7F032C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 708C9E37EBCF518B058EFF5E163C4E98;
 			remoteInfo = NCMB;
 		};
+		CAEDC32C78E422CAFC0C5C2F02C01CDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99AC7779AA0E07D337CFA388DF690218;
+			remoteInfo = CDAlertView;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01E1CE0AD851488D1DB7671DE5487C15 /* NCMBScriptService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBScriptService.m; path = NCMB/NCMBScriptService/NCMBScriptService.m; sourceTree = "<group>"; };
-		0496CBD267A48BADAE37C8E180FD3D7B /* NCMBAddOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBAddOperation.m; path = NCMB/Operations/NCMBAddOperation.m; sourceTree = "<group>"; };
-		0CDAF2570C449CC91A8FA7B0256DD0C4 /* NCMBConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBConstants.h; path = NCMB/NCMBConstants.h; sourceTree = "<group>"; };
-		0D94C595BA7406043DA1078619B0D37D /* NSDataBase64Encode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NSDataBase64Encode.h; path = NCMB/NSDataBase64Encode/NSDataBase64Encode.h; sourceTree = "<group>"; };
-		14F6B28B9215CFCF6A9758A99F4AFAAE /* NCMBACL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBACL.h; path = NCMB/NCMBACL.h; sourceTree = "<group>"; };
-		17716C53082FC7F1CEA7035FAFF79B26 /* NCMB-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NCMB-Info.plist"; sourceTree = "<group>"; };
+		03FBDAC2DEA7F9B21BE8FDF89F63FC71 /* NCMBQuery+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NCMBQuery+Private.h"; path = "NCMB/PrivateHeaders/NCMBQuery+Private.h"; sourceTree = "<group>"; };
+		0427DAA8716133C999DF9417CF3D9AEA /* NCMBRemoveOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRemoveOperation.m; path = NCMB/Operations/NCMBRemoveOperation.m; sourceTree = "<group>"; };
+		04B7A6FD1EC891A7BA9323D565B4D171 /* NCMBUser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBUser.m; path = NCMB/NCMBUser.m; sourceTree = "<group>"; };
+		04DBD91D682B4A127BD3B30A5A9848C6 /* NCMBDeleteOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBDeleteOperation.m; path = NCMB/Operations/NCMBDeleteOperation.m; sourceTree = "<group>"; };
+		0650E64FA2C461FE918F25B8E26172B6 /* NCMBAnonymousUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBAnonymousUtils.h; path = NCMB/NCMBAnonymousUtils.h; sourceTree = "<group>"; };
+		0857B730CD44A133835F66447278AB39 /* NCMBAnonymousUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBAnonymousUtils.m; path = NCMB/NCMBAnonymousUtils.m; sourceTree = "<group>"; };
+		08EAAF9F03E4D6DFEFE1054A5C52480A /* check@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "check@2x.png"; path = "CDAlertView/Resources/Assets/check@2x.png"; sourceTree = "<group>"; };
+		0B2D97CEB83CB52DCDFF3390B249619D /* Siren-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Siren-prefix.pch"; sourceTree = "<group>"; };
+		142A93090543BB428A25E64F08D2AC81 /* notificationFilled@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "notificationFilled@1x.png"; path = "CDAlertView/Resources/Assets/notificationFilled@1x.png"; sourceTree = "<group>"; };
+		1729782C7541B7ABEA9A07B3BA4F9A0C /* NCMBRelation+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NCMBRelation+Private.h"; path = "NCMB/PrivateHeaders/NCMBRelation+Private.h"; sourceTree = "<group>"; };
+		17E70395B3CDD0B7EDA622612E2C3144 /* Siren.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Siren.framework; path = Siren.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		186922509FEFBC3104CC16BED10BB060 /* NCMB.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMB.m; path = NCMB/NCMB.m; sourceTree = "<group>"; };
+		188AB4B7D71C51F7A1AD41FF4C5722AA /* PerformCheck.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PerformCheck.swift; path = Sources/Models/PerformCheck.swift; sourceTree = "<group>"; };
 		18DE5147A4272A57EF69294AD421B608 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
-		1B28075587E2FD5B76FA2E94C065EE02 /* NCMBAnalytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBAnalytics.h; path = NCMB/NCMBAnalytics.h; sourceTree = "<group>"; };
+		1A1E61E8CF7ADD9273C3AABC99E5C9F1 /* NCMBRole.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRole.h; path = NCMB/NCMBRole.h; sourceTree = "<group>"; };
+		1AD8611F72C978CCCF2085B098CA96F2 /* check@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "check@3x.png"; path = "CDAlertView/Resources/Assets/check@3x.png"; sourceTree = "<group>"; };
+		1CCF01E6BA4C94F75B7AA2650C09AACA /* Localization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Localization.swift; path = Sources/Models/Localization.swift; sourceTree = "<group>"; };
+		1E3307F7F50C24F2BDB5A5ABAFCECFFB /* NCMBUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBUser.h; path = NCMB/NCMBUser.h; sourceTree = "<group>"; };
+		21825A2399886A0E12253A47762CE5DB /* NCMBRichPushView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRichPushView.m; path = NCMB/NCMBRichPush/NCMBRichPushView.m; sourceTree = "<group>"; };
 		21C6112C32E20699423BAF28AB8952DE /* Pods-NCMBMemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NCMBMemo-frameworks.sh"; sourceTree = "<group>"; };
-		259E908299BCA20044BE2E1647328FD3 /* NCMBDeleteOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBDeleteOperation.h; path = NCMB/Operations/NCMBDeleteOperation.h; sourceTree = "<group>"; };
-		2E6BF39AA9DBD3E41C18B48FF3031DA2 /* NCMBSetOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBSetOperation.m; path = NCMB/Operations/NCMBSetOperation.m; sourceTree = "<group>"; };
-		310B478EFD19A07EDE76F6AB3159EB32 /* NCMBObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBObject.m; path = NCMB/NCMBObject.m; sourceTree = "<group>"; };
-		35C0CE5071F0A7E99D983505D6336BE9 /* NCMB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NCMB.modulemap; sourceTree = "<group>"; };
-		39F9F157357C56B897F54F098805FC21 /* NCMBDateFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBDateFormat.m; path = NCMB/NCMBDateFormat.m; sourceTree = "<group>"; };
-		3A045B22986A552EBAFFFA7F7F6885CF /* NCMBRelation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRelation.h; path = NCMB/NCMBRelation.h; sourceTree = "<group>"; };
-		3F03034FB112CF8398D83AFE24320C32 /* NCMB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NCMB-prefix.pch"; sourceTree = "<group>"; };
-		4532FB18FC856E2AE5FF56C6683818CA /* NCMBObject+Subclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NCMBObject+Subclass.h"; path = "NCMB/NCMBObject+Subclass.h"; sourceTree = "<group>"; };
-		4657D4378B47923BD7478273C06F4510 /* NCMBGeoPoint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBGeoPoint.m; path = NCMB/NCMBGeoPoint.m; sourceTree = "<group>"; };
-		470247C713ED93AFD8482CCEAB0E0EE5 /* SubClassHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SubClassHandler.h; path = NCMB/SubClassHandler/SubClassHandler.h; sourceTree = "<group>"; };
-		489A5C7C9F65AAD50220820DDEA328FA /* NCMBCloseImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBCloseImageView.h; path = NCMB/NCMBRichPush/NCMBCloseImageView.h; sourceTree = "<group>"; };
-		4A84FC0EF38E2B7C0BBDFF4CAE9BAF14 /* NCMBInstallation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBInstallation.m; path = NCMB/NCMBInstallation.m; sourceTree = "<group>"; };
-		4AB30EF41F9091B89FC50EDE5512BEC8 /* NCMBIncrementOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBIncrementOperation.m; path = NCMB/Operations/NCMBIncrementOperation.m; sourceTree = "<group>"; };
-		4D5AD13EFB125223215747621A9D396C /* NCMBSetOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBSetOperation.h; path = NCMB/Operations/NCMBSetOperation.h; sourceTree = "<group>"; };
-		536E139BB1B4131C4C821604F83E8173 /* NCMB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NCMB.debug.xcconfig; sourceTree = "<group>"; };
-		56FC404CF7B9E8E682220C6F8C6B5F62 /* NCMBAnonymousUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBAnonymousUtils.m; path = NCMB/NCMBAnonymousUtils.m; sourceTree = "<group>"; };
-		5757946E6397533D1C5B0700C40631D7 /* NCMBRole.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRole.m; path = NCMB/NCMBRole.m; sourceTree = "<group>"; };
-		585EC433E87B39F629041E972CD489C7 /* NCMBURLSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBURLSession.h; path = NCMB/NCMBURLSession/NCMBURLSession.h; sourceTree = "<group>"; };
-		62F45D0B14D0F0F2CEF952E75C93074D /* NCMBObject+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NCMBObject+Private.h"; path = "NCMB/PrivateHeaders/NCMBObject+Private.h"; sourceTree = "<group>"; };
-		630EC8519EFFC21C19C0CCA0483626A6 /* NCMBRole.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRole.h; path = NCMB/NCMBRole.h; sourceTree = "<group>"; };
-		6853E7735CD341A197578AC33BDED8F2 /* NSDataBase64Encode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NSDataBase64Encode.m; path = NCMB/NSDataBase64Encode/NSDataBase64Encode.m; sourceTree = "<group>"; };
-		69D1535DC1B8190DCE1744B016EA6C18 /* NCMB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NCMB-umbrella.h"; sourceTree = "<group>"; };
-		6A8B8D2BA09A83761A00FE6E5BE6D35E /* NCMBDeleteOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBDeleteOperation.m; path = NCMB/Operations/NCMBDeleteOperation.m; sourceTree = "<group>"; };
-		6D001D6CAEC3AA38BDFDE3D647A44C18 /* NCMBGeoPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBGeoPoint.h; path = NCMB/NCMBGeoPoint.h; sourceTree = "<group>"; };
-		6FE9B2EC9BBE4B198F35B4ED0A3A6534 /* NCMB_umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMB_umbrella.h; path = NCMB/NCMB_umbrella.h; sourceTree = "<group>"; };
-		706DE79FBF76304B479FAC2C4F6A2D4A /* NCMBScriptService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBScriptService.h; path = NCMB/NCMBScriptService/NCMBScriptService.h; sourceTree = "<group>"; };
-		70CFC178CDB3F7F6F137048C76E42FFD /* NCMBRelation+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NCMBRelation+Private.h"; path = "NCMB/PrivateHeaders/NCMBRelation+Private.h"; sourceTree = "<group>"; };
-		73DB56FF1BDE69EF4E91D8F7BCE47709 /* NCMBFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBFile.h; path = NCMB/NCMBFile.h; sourceTree = "<group>"; };
-		7830323A3DC0D94313ECB552199A72CF /* NCMBUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBUser.h; path = NCMB/NCMBUser.h; sourceTree = "<group>"; };
-		79EDE251C20857B1F899DF985A6B5C0D /* NCMBACL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBACL.m; path = NCMB/NCMBACL.m; sourceTree = "<group>"; };
-		84816E17D7650CDB3B6E1C0972ECC122 /* NCMBQuery+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NCMBQuery+Private.h"; path = "NCMB/PrivateHeaders/NCMBQuery+Private.h"; sourceTree = "<group>"; };
+		237659F42D92A862B5A098A87E9A817B /* KnownError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KnownError.swift; path = Sources/Utilities/KnownError.swift; sourceTree = "<group>"; };
+		2412E63E08C4C5555336D40A0AA6C652 /* NCMBSubclassing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBSubclassing.h; path = NCMB/NCMBSubclassing.h; sourceTree = "<group>"; };
+		2515136550DA82309AE09F3821A1ED2C /* NCMBAnalytics.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBAnalytics.m; path = NCMB/NCMBAnalytics.m; sourceTree = "<group>"; };
+		25691DEB8E8A2C7D91194755279BAA64 /* NCMBScript.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBScript.h; path = NCMB/NCMBScript.h; sourceTree = "<group>"; };
+		25C4054D324FBEA3BDD1A29A282F5645 /* Siren-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Siren-Info.plist"; sourceTree = "<group>"; };
+		2C8A09BC38415C44A8E63FC8BA209A08 /* NCMBAddOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBAddOperation.m; path = NCMB/Operations/NCMBAddOperation.m; sourceTree = "<group>"; };
+		32324759879C562E1B2735914069EF2C /* NCMB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NCMB-dummy.m"; sourceTree = "<group>"; };
+		3B8FBE6368B2269FCC02D1E0C6AEF5CF /* NCMBReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBReachability.m; path = NCMB/NCMBReachability/NCMBReachability.m; sourceTree = "<group>"; };
+		3F91A881CBCB5B1A3A91BC7CECEBCF34 /* NCMBCloseImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBCloseImageView.m; path = NCMB/NCMBRichPush/NCMBCloseImageView.m; sourceTree = "<group>"; };
+		42F2D9BFD5DC2F40ED08224FB5197E32 /* NCMBQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBQuery.m; path = NCMB/NCMBQuery.m; sourceTree = "<group>"; };
+		45A4D24FC3A56D2698646780AC7882AA /* NCMBError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBError.m; path = NCMB/NCMBError.m; sourceTree = "<group>"; };
+		497444E3780E44ED4F4672834DCE1ED8 /* CDAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CDAlertView.framework; path = CDAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AB32319223E1648FADE7B286E52FCDD /* NCMBACL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBACL.m; path = NCMB/NCMBACL.m; sourceTree = "<group>"; };
+		4CEF51D615BBCE64BE4CF7DC84D226E6 /* SubClassHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SubClassHandler.m; path = NCMB/SubClassHandler/SubClassHandler.m; sourceTree = "<group>"; };
+		4D2A23CE2C022A5EEED27A9283E616C2 /* NCMBRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRequest.h; path = NCMB/NCMBRequest/NCMBRequest.h; sourceTree = "<group>"; };
+		5266F50F87487E9B0739C7D7C54E7461 /* NCMBURLSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBURLSession.m; path = NCMB/NCMBURLSession/NCMBURLSession.m; sourceTree = "<group>"; };
+		55C9700176A40E258B1A52CB221E99ED /* CDAlertView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CDAlertView.debug.xcconfig; sourceTree = "<group>"; };
+		56BF8B68BFD8847C6A86A9E68DBA587C /* NCMBDateFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBDateFormat.h; path = NCMB/NCMBDateFormat.h; sourceTree = "<group>"; };
+		59F5F0D9A501331AE9C8AFC3802ACF87 /* NCMBAddUniqueOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBAddUniqueOperation.m; path = NCMB/Operations/NCMBAddUniqueOperation.m; sourceTree = "<group>"; };
+		5AD07327F4D34FBDE152DD47FCD50049 /* alarmOutline@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alarmOutline@1x.png"; path = "CDAlertView/Resources/Assets/alarmOutline@1x.png"; sourceTree = "<group>"; };
+		5DEE5CF0B8B60CBFF73F63A56F6BC3BB /* warningOutline@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "warningOutline@1x.png"; path = "CDAlertView/Resources/Assets/warningOutline@1x.png"; sourceTree = "<group>"; };
+		5E4A9DF2575A97F8FF2C1639079B3485 /* Siren-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Siren-umbrella.h"; sourceTree = "<group>"; };
+		5ED9EDFE6E927C8571B0891C53C01C9D /* NCMBInstallation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBInstallation.m; path = NCMB/NCMBInstallation.m; sourceTree = "<group>"; };
+		5FB62E3D6FB25695E48480C278A2CE33 /* Siren-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Siren-dummy.m"; sourceTree = "<group>"; };
+		60A8CF4D0FA452277225BCD55FE50C17 /* CDAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CDAlertView-prefix.pch"; sourceTree = "<group>"; };
+		611291E00F6F212862F8B061D95027C1 /* NCMB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NCMB-umbrella.h"; sourceTree = "<group>"; };
+		61CBDF660C04DBF4CFC39BCC3434924E /* notificationOutline@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "notificationOutline@2x.png"; path = "CDAlertView/Resources/Assets/notificationOutline@2x.png"; sourceTree = "<group>"; };
+		61F669D7CB72B79D580052116CEA9EB7 /* notificationOutline@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "notificationOutline@3x.png"; path = "CDAlertView/Resources/Assets/notificationOutline@3x.png"; sourceTree = "<group>"; };
+		6293376DE3416D38CAA6992ED1731072 /* NCMBError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBError.h; path = NCMB/NCMBError.h; sourceTree = "<group>"; };
+		641473896D27DEEA661C9AFFFBD378D6 /* NCMBSetOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBSetOperation.h; path = NCMB/Operations/NCMBSetOperation.h; sourceTree = "<group>"; };
+		64174420E09D629DC750BEB0B09A5C5D /* Siren.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Siren.bundle; path = Sources/Siren.bundle; sourceTree = "<group>"; };
+		66F82A7DF8EEDAD4BBFA323EAF60BCD6 /* CDAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CDAlertView-umbrella.h"; sourceTree = "<group>"; };
+		69E891E6662E183290D8BAE0BCDC304F /* NCMBObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBObject.m; path = NCMB/NCMBObject.m; sourceTree = "<group>"; };
+		6D2018A3EFAD6057C35101F15CC0A394 /* NCMB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NCMB.release.xcconfig; sourceTree = "<group>"; };
+		6DA6A37B44B4782384E14D65663B282C /* NCMBConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBConstants.h; path = NCMB/NCMBConstants.h; sourceTree = "<group>"; };
+		7092ACC729A2385E53C3794422EC26CE /* APIModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APIModel.swift; path = Sources/Models/APIModel.swift; sourceTree = "<group>"; };
+		72E3F617832DB6AB7D60AA6C1B5F82FD /* NCMBRole.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRole.m; path = NCMB/NCMBRole.m; sourceTree = "<group>"; };
+		736F16B2C2BC25119B830357575ED418 /* NCMBURLSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBURLSession.h; path = NCMB/NCMBURLSession/NCMBURLSession.h; sourceTree = "<group>"; };
+		74081643304BCD38C851FCD520069685 /* NCMBAnalytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBAnalytics.h; path = NCMB/NCMBAnalytics.h; sourceTree = "<group>"; };
+		7440F0A0A5D75290ED82B95E69F97720 /* NCMBObject+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NCMBObject+Private.h"; path = "NCMB/PrivateHeaders/NCMBObject+Private.h"; sourceTree = "<group>"; };
+		768D96A3CA8F30F232A9426D6736E6C0 /* NCMBRemoveOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRemoveOperation.h; path = NCMB/Operations/NCMBRemoveOperation.h; sourceTree = "<group>"; };
+		7765B0987AD200B22C4A2766ADFE6709 /* warningFilled@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "warningFilled@3x.png"; path = "CDAlertView/Resources/Assets/warningFilled@3x.png"; sourceTree = "<group>"; };
+		78CFA1D1A8F42E124C8577DCD0048A99 /* NCMBFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBFile.m; path = NCMB/NCMBFile.m; sourceTree = "<group>"; };
+		7A0F95223585428BD5372B99279558C4 /* NCMB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NCMB.debug.xcconfig; sourceTree = "<group>"; };
+		7A9AF247BC5346EB08A18AE7635E31EB /* NCMBSetOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBSetOperation.m; path = NCMB/Operations/NCMBSetOperation.m; sourceTree = "<group>"; };
+		7B6B3D791E9DA0525CB29CD2A2A8897D /* LayoutConstraintsExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintsExtension.swift; path = CDAlertView/Classes/LayoutConstraintsExtension.swift; sourceTree = "<group>"; };
+		7CE9026ABBAFB9C683A8E266FA33DE49 /* notificationOutline@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "notificationOutline@1x.png"; path = "CDAlertView/Resources/Assets/notificationOutline@1x.png"; sourceTree = "<group>"; };
+		7D323FFE81A0A2565816173BEC43A769 /* error@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "error@3x.png"; path = "CDAlertView/Resources/Assets/error@3x.png"; sourceTree = "<group>"; };
+		7E6000CEAFCCA1C362BE524878F745DE /* NCMBDateFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBDateFormat.m; path = NCMB/NCMBDateFormat.m; sourceTree = "<group>"; };
+		7FB161D772498486D847C9BB0279A177 /* alarmFilled@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alarmFilled@3x.png"; path = "CDAlertView/Resources/Assets/alarmFilled@3x.png"; sourceTree = "<group>"; };
+		80C5DA56881E977C5D43572EADBDBCB2 /* warningFilled@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "warningFilled@2x.png"; path = "CDAlertView/Resources/Assets/warningFilled@2x.png"; sourceTree = "<group>"; };
+		86411A6FDFA2A0C3A27D57D3A197CFDD /* NCMBIncrementOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBIncrementOperation.h; path = NCMB/Operations/NCMBIncrementOperation.h; sourceTree = "<group>"; };
+		86493C00A46F85A1DF2FD441B0DFAE93 /* PresentationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationManager.swift; path = Sources/Managers/PresentationManager.swift; sourceTree = "<group>"; };
 		8804DDCE188BBE318117DBD950223910 /* Pods-NCMBMemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NCMBMemo.modulemap"; sourceTree = "<group>"; };
-		88DF1B7FD9179942AD6637436F83B683 /* NCMBURLSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBURLSession.m; path = NCMB/NCMBURLSession/NCMBURLSession.m; sourceTree = "<group>"; };
 		897BB0F1917CE9659BA6F71DAA0FB412 /* Pods-NCMBMemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NCMBMemo.release.xcconfig"; sourceTree = "<group>"; };
+		8B18A323F74FE37FC6AD425C1663217A /* alarmOutline@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alarmOutline@2x.png"; path = "CDAlertView/Resources/Assets/alarmOutline@2x.png"; sourceTree = "<group>"; };
+		8C255738A18B4F2E00C4584795752E9C /* RulesManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RulesManager.swift; path = Sources/Managers/RulesManager.swift; sourceTree = "<group>"; };
 		8C5AF87CB36FF022A0F7BDED8F0B2666 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		8E5E1A6FC2012CD5373CFC7FF064F247 /* NCMBRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRequest.h; path = NCMB/NCMBRequest/NCMBRequest.h; sourceTree = "<group>"; };
-		8F44808C2CE50ED5ECCF6501F9B4DEAE /* NCMBQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBQuery.m; path = NCMB/NCMBQuery.m; sourceTree = "<group>"; };
-		91F219CC6290ADCE205F4E79770FB0EB /* NCMBRelation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRelation.m; path = NCMB/NCMBRelation.m; sourceTree = "<group>"; };
-		93A9BF8A86E7C8C90809F3ED6ACD45FA /* NCMBRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRequest.m; path = NCMB/NCMBRequest/NCMBRequest.m; sourceTree = "<group>"; };
-		96FADE53C549E6487B227A82CC494606 /* NCMBError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBError.h; path = NCMB/NCMBError.h; sourceTree = "<group>"; };
-		9CF37589BF3137F84356F660B63FCB96 /* NCMBRemoveOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRemoveOperation.h; path = NCMB/Operations/NCMBRemoveOperation.h; sourceTree = "<group>"; };
+		91D5A8F1082B71B93CA80EDF54759312 /* ResourceBundle-CDAlertView-CDAlertView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CDAlertView-CDAlertView-Info.plist"; sourceTree = "<group>"; };
+		91FADAB7815E3BB07F4BCBD90B274AF3 /* SubClassHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SubClassHandler.h; path = NCMB/SubClassHandler/SubClassHandler.h; sourceTree = "<group>"; };
+		92673BF478B8272C6DE82AA6145F77A0 /* APIManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APIManager.swift; path = Sources/Managers/APIManager.swift; sourceTree = "<group>"; };
+		9471723ED8E5D16BFF0B45AAB45A7083 /* Rules.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Rules.swift; path = Sources/Models/Rules.swift; sourceTree = "<group>"; };
+		94FC446B2CEB28A5862E4AF39EFFEAFA /* NCMBACL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBACL.h; path = NCMB/NCMBACL.h; sourceTree = "<group>"; };
+		9B79BC9AE3AF3BB290559021535581D5 /* NCMBRelation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRelation.m; path = NCMB/NCMBRelation.m; sourceTree = "<group>"; };
+		9BF31CA75AC734A817B959D94182B594 /* CDAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CDAlertView-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9EA9B7AE92A7C65C4F240CE49B1331F7 /* NCMBAddUniqueOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBAddUniqueOperation.m; path = NCMB/Operations/NCMBAddUniqueOperation.m; sourceTree = "<group>"; };
-		A307CCA4E452CF72A7DC0AFDE01CDEC3 /* NCMB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NCMB.release.xcconfig; sourceTree = "<group>"; };
+		9FD10E78E04212B22FEAF688F831D88F /* NCMB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NCMB-prefix.pch"; sourceTree = "<group>"; };
+		A07738771F53EC71F7CEDE2F5B95BD28 /* NCMBRelationOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRelationOperation.h; path = NCMB/Operations/NCMBRelationOperation.h; sourceTree = "<group>"; };
+		A12DFFE75F864AFB1D7A8313DF0B226E /* UpdateResults.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UpdateResults.swift; path = Sources/Models/UpdateResults.swift; sourceTree = "<group>"; };
+		A1DC33E6C0B63BF2DA284FD801CFAE1E /* NCMB-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NCMB-Info.plist"; sourceTree = "<group>"; };
+		A2E2BB861CC1A2C2BBCFA6698E680BA5 /* error@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "error@1x.png"; path = "CDAlertView/Resources/Assets/error@1x.png"; sourceTree = "<group>"; };
+		A3F9E50B50DB40002F25202B37DA0FC8 /* warningFilled@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "warningFilled@1x.png"; path = "CDAlertView/Resources/Assets/warningFilled@1x.png"; sourceTree = "<group>"; };
 		A45CCE527F1FE23843FABDEB6560AA3D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		A4BE9B7CBB6DE833FD9E18EDF27122AC /* NCMBAddOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBAddOperation.h; path = NCMB/Operations/NCMBAddOperation.h; sourceTree = "<group>"; };
-		A79E28DFCFD4DB953F3CAD3E39555D58 /* NCMBReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBReachability.m; path = NCMB/NCMBReachability/NCMBReachability.m; sourceTree = "<group>"; };
-		A80B584FA52B2A4372834D8AF3579CC6 /* NCMBInstallation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBInstallation.h; path = NCMB/NCMBInstallation.h; sourceTree = "<group>"; };
-		AADEE382DD235BAC1D177378F8D8BBAE /* NCMBDateFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBDateFormat.h; path = NCMB/NCMBDateFormat.h; sourceTree = "<group>"; };
-		ACAE6DFE09A538E88D0101BF67AD7428 /* NCMBUser+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NCMBUser+Private.h"; path = "NCMB/PrivateHeaders/NCMBUser+Private.h"; sourceTree = "<group>"; };
-		AED308D4F61B71ABD18E73E5C9FA5D1F /* NCMB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMB.h; path = NCMB/NCMB.h; sourceTree = "<group>"; };
-		AFA49B9197E7A11683799D9267644B26 /* NCMBRelationOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRelationOperation.h; path = NCMB/Operations/NCMBRelationOperation.h; sourceTree = "<group>"; };
-		AFC707BD27628F8BC48662D00A0A4CBA /* NCMB.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMB.m; path = NCMB/NCMB.m; sourceTree = "<group>"; };
-		B102B47AB12EDE605A7B6CD59166B06E /* NCMBScript.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBScript.m; path = NCMB/NCMBScript.m; sourceTree = "<group>"; };
-		B6284D894F2AB9648CD0023DA4EEC30E /* NCMBSubclassing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBSubclassing.h; path = NCMB/NCMBSubclassing.h; sourceTree = "<group>"; };
+		A475BFF880AA1F38D04498985A5A0061 /* NCMBUser+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NCMBUser+Private.h"; path = "NCMB/PrivateHeaders/NCMBUser+Private.h"; sourceTree = "<group>"; };
+		A59E72A5B22BACFE56ADA33A842053C2 /* NSDataBase64Encode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NSDataBase64Encode.m; path = NCMB/NSDataBase64Encode/NSDataBase64Encode.m; sourceTree = "<group>"; };
+		A5F65FCE1DD67EA74A7E39A43E01627E /* CDAlertView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CDAlertView.release.xcconfig; sourceTree = "<group>"; };
+		A7EEE14A0DECB21A09C4ED1C42CB890D /* warningOutline@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "warningOutline@3x.png"; path = "CDAlertView/Resources/Assets/warningOutline@3x.png"; sourceTree = "<group>"; };
+		A871F6C9ECB42A89A407446000CE7B67 /* NCMBRelationOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRelationOperation.m; path = NCMB/Operations/NCMBRelationOperation.m; sourceTree = "<group>"; };
+		A8CA26E08178332120BA1BBFF5C56404 /* BundleExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BundleExtension.swift; path = Sources/Extensions/BundleExtension.swift; sourceTree = "<group>"; };
+		B07A25159A41396CAE331E51F76DB8A9 /* NCMBAddUniqueOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBAddUniqueOperation.h; path = NCMB/Operations/NCMBAddUniqueOperation.h; sourceTree = "<group>"; };
+		B1705002365C424EDCE479D29E9107D2 /* NCMBDeleteOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBDeleteOperation.h; path = NCMB/Operations/NCMBDeleteOperation.h; sourceTree = "<group>"; };
+		B3F1D9C27DF2E39B15E06DFC0BE78E3F /* CDAlertView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CDAlertView-Info.plist"; sourceTree = "<group>"; };
+		B4F73EEA66923EAD05FF768FEE368205 /* NCMBQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBQuery.h; path = NCMB/NCMBQuery.h; sourceTree = "<group>"; };
 		B69EE06CEF4B6A6D7258B21F56DD1030 /* Pods-NCMBMemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NCMBMemo-umbrella.h"; sourceTree = "<group>"; };
-		BCDF8C8CEB158B148EF488678A0E36CE /* NCMBIncrementOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBIncrementOperation.h; path = NCMB/Operations/NCMBIncrementOperation.h; sourceTree = "<group>"; };
-		BE43B326B600716EBE11F189C50D8774 /* NCMBAnalytics.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBAnalytics.m; path = NCMB/NCMBAnalytics.m; sourceTree = "<group>"; };
+		B84238DE9845945A8B9072E843B00062 /* DateExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateExtension.swift; path = Sources/Extensions/DateExtension.swift; sourceTree = "<group>"; };
+		BAC8CCD50EB56359779FE1E320E17303 /* NCMBObject+Subclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NCMBObject+Subclass.h"; path = "NCMB/NCMBObject+Subclass.h"; sourceTree = "<group>"; };
+		BAFF79BE13911D95B06D5BE17C6CB8B2 /* NCMBCloseImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBCloseImageView.h; path = NCMB/NCMBRichPush/NCMBCloseImageView.h; sourceTree = "<group>"; };
+		BB4703B73EC68B6A1F098683D091CF93 /* NCMBAddOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBAddOperation.h; path = NCMB/Operations/NCMBAddOperation.h; sourceTree = "<group>"; };
+		BC961CB8A4B243C60FCD31A1FC6AA3A6 /* Model.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Model.swift; path = Sources/Models/Model.swift; sourceTree = "<group>"; };
+		BED3AF839A6F74D0410AAD1A3ADC6981 /* alarmFilled@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alarmFilled@2x.png"; path = "CDAlertView/Resources/Assets/alarmFilled@2x.png"; sourceTree = "<group>"; };
 		BEFCA33D9CD95463585F339EE43BACE7 /* Pods-NCMBMemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NCMBMemo.debug.xcconfig"; sourceTree = "<group>"; };
-		BF4E86FB67F26834CAAE86B0A0094D9B /* NCMB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NCMB-dummy.m"; sourceTree = "<group>"; };
+		BEFEE1568E455BB83E725CE5C9D858C4 /* warningOutline@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "warningOutline@2x.png"; path = "CDAlertView/Resources/Assets/warningOutline@2x.png"; sourceTree = "<group>"; };
+		C0860BB813FA6ACB75EADBB074DCB4C2 /* Siren.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Siren.debug.xcconfig; sourceTree = "<group>"; };
+		C1C6063A03E91E930F037D7C782A7A68 /* CDAlertHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CDAlertHeaderView.swift; path = CDAlertView/Classes/CDAlertHeaderView.swift; sourceTree = "<group>"; };
+		C35AC249C010A7DF65C9601086ADD6C1 /* NCMBReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBReachability.h; path = NCMB/NCMBReachability/NCMBReachability.h; sourceTree = "<group>"; };
+		C3AB764493914A6857F25FCA6BCFF5EE /* UIAlertControllerExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIAlertControllerExtension.swift; path = Sources/Extensions/UIAlertControllerExtension.swift; sourceTree = "<group>"; };
+		C49CAD1BB54F5A7D571AA0CBAB5C5315 /* NCMBObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBObject.h; path = NCMB/NCMBObject.h; sourceTree = "<group>"; };
+		C50C08ED07A58D82E4C6B21083E36EE9 /* notificationFilled@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "notificationFilled@2x.png"; path = "CDAlertView/Resources/Assets/notificationFilled@2x.png"; sourceTree = "<group>"; };
 		C65FA92DBA660DFFBC3E849819CE0D64 /* Pods-NCMBMemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NCMBMemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C6FD67DAEA98F2E521F3E9E6958938E7 /* notificationFilled@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "notificationFilled@3x.png"; path = "CDAlertView/Resources/Assets/notificationFilled@3x.png"; sourceTree = "<group>"; };
+		C806AB315039684627F2E430051608A3 /* CDAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CDAlertView.swift; path = CDAlertView/Classes/CDAlertView.swift; sourceTree = "<group>"; };
 		C8C45601B52670C17883296F89122F6F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C9E95CE597EFB44E5BBC61C46DAA58C1 /* NCMBScript.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBScript.m; path = NCMB/NCMBScript.m; sourceTree = "<group>"; };
 		CABC31310CC33244A09A90655ADF0B79 /* Pods-NCMBMemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NCMBMemo-dummy.m"; sourceTree = "<group>"; };
-		CCDD188A5B5FA79EDB7FD2DDC61C03F5 /* NCMBRichPushView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRichPushView.h; path = NCMB/NCMBRichPush/NCMBRichPushView.h; sourceTree = "<group>"; };
+		CBF5AAF12F66004D436A96FDB2DB1210 /* UserDefaultsExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserDefaultsExtension.swift; path = Sources/Extensions/UserDefaultsExtension.swift; sourceTree = "<group>"; };
+		CDA2C023CF78316294ACA96020D60281 /* CDAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CDAlertView.modulemap; sourceTree = "<group>"; };
 		CE7863835C032998BE42B3923749C373 /* Pods_NCMBMemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NCMBMemo.framework; path = "Pods-NCMBMemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFE8E610CD1C00DF4558D8530D367E63 /* NCMBRemoveOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRemoveOperation.m; path = NCMB/Operations/NCMBRemoveOperation.m; sourceTree = "<group>"; };
-		D1787D49010A25ACF1A9A3740BF633AD /* NCMBRelationOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRelationOperation.m; path = NCMB/Operations/NCMBRelationOperation.m; sourceTree = "<group>"; };
-		D34254109CE7894CA409FA3C2F0FA627 /* SubClassHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SubClassHandler.m; path = NCMB/SubClassHandler/SubClassHandler.m; sourceTree = "<group>"; };
-		D8E4D5C21D784D83FC7073AA4B1CA549 /* NCMBError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBError.m; path = NCMB/NCMBError.m; sourceTree = "<group>"; };
-		DC630898AB53ABCB4E1AA6D87CE64BAA /* NCMBObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBObject.h; path = NCMB/NCMBObject.h; sourceTree = "<group>"; };
-		DF960FEEE11121EBFA04C384666A021D /* NCMBPush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBPush.h; path = NCMB/NCMBPush.h; sourceTree = "<group>"; };
+		CECD1429C11C77C38C43AD491AA46277 /* DataParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataParser.swift; path = Sources/Utilities/DataParser.swift; sourceTree = "<group>"; };
+		D1ED1C6A96D0C0ED679E70B762F56891 /* ImageHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageHelper.swift; path = CDAlertView/Classes/ImageHelper.swift; sourceTree = "<group>"; };
+		D4CF8092D90466DFBB192D10E6BFAD1D /* NCMB_umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMB_umbrella.h; path = NCMB/NCMB_umbrella.h; sourceTree = "<group>"; };
+		D54F02C1A24366277AE4DBB8898229D5 /* Siren.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Siren.swift; path = Sources/Siren.swift; sourceTree = "<group>"; };
+		D6DD8FF3C506B4D3DACEE42B294A282E /* NCMB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMB.h; path = NCMB/NCMB.h; sourceTree = "<group>"; };
+		D85C0006DBD93A99CBC3930923276BE0 /* NCMBInstallation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBInstallation.h; path = NCMB/NCMBInstallation.h; sourceTree = "<group>"; };
+		D869C323D2999BF6B06EC2B658818E82 /* NCMBGeoPoint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBGeoPoint.m; path = NCMB/NCMBGeoPoint.m; sourceTree = "<group>"; };
+		D8A1CA9C0C42653C8824789BDA8173C3 /* Siren.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Siren.release.xcconfig; sourceTree = "<group>"; };
+		D983D2218395289B290EB6AAFEDD6EBA /* NCMBScriptService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBScriptService.m; path = NCMB/NCMBScriptService/NCMBScriptService.m; sourceTree = "<group>"; };
+		DBF26C5B7E408CEC9BAA2E8736B77A89 /* NCMBRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRequest.m; path = NCMB/NCMBRequest/NCMBRequest.m; sourceTree = "<group>"; };
+		DE4B43F0E679F6900725514673669881 /* NCMB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NCMB.modulemap; sourceTree = "<group>"; };
+		DF039E3DB9DFAE0971003E04E1F5D4BF /* NCMBRelation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRelation.h; path = NCMB/NCMBRelation.h; sourceTree = "<group>"; };
+		DF5C7E002ECF6540A92D5DD9FA48055C /* NCMBPush.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBPush.m; path = NCMB/NCMBPush.m; sourceTree = "<group>"; };
 		DFC9D8B4EA63587D9D401A9D17976FC9 /* Pods-NCMBMemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NCMBMemo-Info.plist"; sourceTree = "<group>"; };
 		E0359D6C026DD5A26046CC51BB762AFE /* NCMB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NCMB.framework; path = NCMB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3078038A8109B90D9233EB7D39B0418 /* NCMBQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBQuery.h; path = NCMB/NCMBQuery.h; sourceTree = "<group>"; };
-		E4DDD097B8C598932C007D364AC23713 /* NCMBFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBFile.m; path = NCMB/NCMBFile.m; sourceTree = "<group>"; };
-		E8251233576B22B00DC4B2B8E1BE22D1 /* NCMBPush.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBPush.m; path = NCMB/NCMBPush.m; sourceTree = "<group>"; };
+		E06D4AA399E2E6078012E419DA906881 /* SirenViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SirenViewController.swift; path = "Sources/View Controllers/SirenViewController.swift"; sourceTree = "<group>"; };
+		E08C126240ADAA3C7F79D5D2E9A883F7 /* AlertAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertAction.swift; path = Sources/Models/AlertAction.swift; sourceTree = "<group>"; };
+		E12BAA3BEBF1BB9ABBB63FC81AB51076 /* NCMBPush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBPush.h; path = NCMB/NCMBPush.h; sourceTree = "<group>"; };
+		E3100FB9227CECF5A764C01A6292D9C6 /* NCMBScriptService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBScriptService.h; path = NCMB/NCMBScriptService/NCMBScriptService.h; sourceTree = "<group>"; };
+		E417FD65D5A1F9B3171583531D47A61C /* CDAlertView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CDAlertView.bundle; path = "CDAlertView-CDAlertView.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E87B882CA87247F50D5085971021FC7D /* Siren.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Siren.modulemap; sourceTree = "<group>"; };
 		E9151808E85BDAFEA45F6BED666EFC76 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
-		F00D4B1BABFAACD4E9B22D0022B335A7 /* NCMBRichPushView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBRichPushView.m; path = NCMB/NCMBRichPush/NCMBRichPushView.m; sourceTree = "<group>"; };
-		F07E4424E874856DFE69043A059898BD /* NCMBAnonymousUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBAnonymousUtils.h; path = NCMB/NCMBAnonymousUtils.h; sourceTree = "<group>"; };
-		F251E566F932371C77BCCAF07DCD3FD1 /* NCMBAddUniqueOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBAddUniqueOperation.h; path = NCMB/Operations/NCMBAddUniqueOperation.h; sourceTree = "<group>"; };
-		F6723AF2275FB17C11749D5F9FA828E8 /* NCMBScript.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBScript.h; path = NCMB/NCMBScript.h; sourceTree = "<group>"; };
-		F99F502D6CF22C79D693660E3483C554 /* NCMBUser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBUser.m; path = NCMB/NCMBUser.m; sourceTree = "<group>"; };
-		FD03ED374DD90B77B558A9EE93F6A2EC /* NCMBReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBReachability.h; path = NCMB/NCMBReachability/NCMBReachability.h; sourceTree = "<group>"; };
-		FD77A4990009AFB43F9843C8B9557634 /* NCMBCloseImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBCloseImageView.m; path = NCMB/NCMBRichPush/NCMBCloseImageView.m; sourceTree = "<group>"; };
+		ECBBBD44A592A6BA87E0E7D9680A8426 /* alarmOutline@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alarmOutline@3x.png"; path = "CDAlertView/Resources/Assets/alarmOutline@3x.png"; sourceTree = "<group>"; };
+		EEC11B1AD50FCF54985B2201FC71A89A /* NCMBRichPushView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBRichPushView.h; path = NCMB/NCMBRichPush/NCMBRichPushView.h; sourceTree = "<group>"; };
+		F0AA66AD272FA2DBAB00A783CDC95D72 /* NCMBFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBFile.h; path = NCMB/NCMBFile.h; sourceTree = "<group>"; };
+		F1155A14246F529130A8342F8A9FAE13 /* error@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "error@2x.png"; path = "CDAlertView/Resources/Assets/error@2x.png"; sourceTree = "<group>"; };
+		F248094E7BBB6AEA2503AD6E20549610 /* NCMBGeoPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCMBGeoPoint.h; path = NCMB/NCMBGeoPoint.h; sourceTree = "<group>"; };
+		F6D3A1544CE14992EFAB6D77F2965CC2 /* alarmFilled@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alarmFilled@1x.png"; path = "CDAlertView/Resources/Assets/alarmFilled@1x.png"; sourceTree = "<group>"; };
+		FAEBDD97B9F60A2F6FE935CB635ACBE4 /* NSDataBase64Encode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NSDataBase64Encode.h; path = NCMB/NSDataBase64Encode/NSDataBase64Encode.h; sourceTree = "<group>"; };
+		FB14720B26DC8ADDD0BF98A2346A1207 /* check@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "check@1x.png"; path = "CDAlertView/Resources/Assets/check@1x.png"; sourceTree = "<group>"; };
+		FC1979777A48391E65D5761DEA7EEEAF /* AlertConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertConstants.swift; path = Sources/Models/AlertConstants.swift; sourceTree = "<group>"; };
 		FE2720063FD924F481CB73E82F036DB8 /* Pods-NCMBMemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NCMBMemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		FFA97D2FEA1D672DB12AA62C60E251AA /* NCMBIncrementOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NCMBIncrementOperation.m; path = NCMB/Operations/NCMBIncrementOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6A0E2ED380D04797F94F66A3536228DA /* Frameworks */ = {
+		235DB52A2B979059A87E50E1B0549875 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65CDFF2AC5DEF4D89F70A99CA906D22F /* Foundation.framework in Frameworks */,
+				5EF00CBA62E8E1527DD2752308303333 /* Foundation.framework in Frameworks */,
+				55791DD47B23F1A5CB157815C7B9C89A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A1A4690F427CDD4F7CA9A94A45227C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D4BD45CF1B1ACD1919AA7401119D09 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,18 +369,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AF2F15D07CAF7C6E72D809A2A52C6BB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE91B21410FB273F0E34CC816F18B15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				628EBDD8B974F49CFB058769C03138BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		24DB2B1EDA26F5419A673BB96DCE85B9 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E0359D6C026DD5A26046CC51BB762AFE /* NCMB.framework */,
-				CE7863835C032998BE42B3923749C373 /* Pods_NCMBMemo.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		329659FA430C11C17DF5C5EBCAE05877 /* Pods-NCMBMemo */ = {
 			isa = PBXGroup;
 			children = (
@@ -258,106 +416,160 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		41966812ADDD82942CB2C71F3C5F2B08 /* Pods */ = {
+		48535A4ED9A06D82493CDC6588FCB2AD /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8AC0C02776D5C048F685B992A8A65D2E /* NCMB */,
+				E87B882CA87247F50D5085971021FC7D /* Siren.modulemap */,
+				5FB62E3D6FB25695E48480C278A2CE33 /* Siren-dummy.m */,
+				25C4054D324FBEA3BDD1A29A282F5645 /* Siren-Info.plist */,
+				0B2D97CEB83CB52DCDFF3390B249619D /* Siren-prefix.pch */,
+				5E4A9DF2575A97F8FF2C1639079B3485 /* Siren-umbrella.h */,
+				C0860BB813FA6ACB75EADBB074DCB4C2 /* Siren.debug.xcconfig */,
+				D8A1CA9C0C42653C8824789BDA8173C3 /* Siren.release.xcconfig */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/Siren";
 			sourceTree = "<group>";
 		};
-		46B51849BF5A3F4999CF5818CE8A52F8 /* Support Files */ = {
+		4E10C3A785FDDE5FC8638E35DE9B1B6E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				35C0CE5071F0A7E99D983505D6336BE9 /* NCMB.modulemap */,
-				BF4E86FB67F26834CAAE86B0A0094D9B /* NCMB-dummy.m */,
-				17716C53082FC7F1CEA7035FAFF79B26 /* NCMB-Info.plist */,
-				3F03034FB112CF8398D83AFE24320C32 /* NCMB-prefix.pch */,
-				69D1535DC1B8190DCE1744B016EA6C18 /* NCMB-umbrella.h */,
-				536E139BB1B4131C4C821604F83E8173 /* NCMB.debug.xcconfig */,
-				A307CCA4E452CF72A7DC0AFDE01CDEC3 /* NCMB.release.xcconfig */,
+				DE4B43F0E679F6900725514673669881 /* NCMB.modulemap */,
+				32324759879C562E1B2735914069EF2C /* NCMB-dummy.m */,
+				A1DC33E6C0B63BF2DA284FD801CFAE1E /* NCMB-Info.plist */,
+				9FD10E78E04212B22FEAF688F831D88F /* NCMB-prefix.pch */,
+				611291E00F6F212862F8B061D95027C1 /* NCMB-umbrella.h */,
+				7A0F95223585428BD5372B99279558C4 /* NCMB.debug.xcconfig */,
+				6D2018A3EFAD6057C35101F15CC0A394 /* NCMB.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/NCMB";
 			sourceTree = "<group>";
 		};
-		8AC0C02776D5C048F685B992A8A65D2E /* NCMB */ = {
+		7645E54AFC325CB8877CD9F81F43F244 /* Siren */ = {
 			isa = PBXGroup;
 			children = (
-				AED308D4F61B71ABD18E73E5C9FA5D1F /* NCMB.h */,
-				AFC707BD27628F8BC48662D00A0A4CBA /* NCMB.m */,
-				6FE9B2EC9BBE4B198F35B4ED0A3A6534 /* NCMB_umbrella.h */,
-				14F6B28B9215CFCF6A9758A99F4AFAAE /* NCMBACL.h */,
-				79EDE251C20857B1F899DF985A6B5C0D /* NCMBACL.m */,
-				A4BE9B7CBB6DE833FD9E18EDF27122AC /* NCMBAddOperation.h */,
-				0496CBD267A48BADAE37C8E180FD3D7B /* NCMBAddOperation.m */,
-				F251E566F932371C77BCCAF07DCD3FD1 /* NCMBAddUniqueOperation.h */,
-				9EA9B7AE92A7C65C4F240CE49B1331F7 /* NCMBAddUniqueOperation.m */,
-				1B28075587E2FD5B76FA2E94C065EE02 /* NCMBAnalytics.h */,
-				BE43B326B600716EBE11F189C50D8774 /* NCMBAnalytics.m */,
-				F07E4424E874856DFE69043A059898BD /* NCMBAnonymousUtils.h */,
-				56FC404CF7B9E8E682220C6F8C6B5F62 /* NCMBAnonymousUtils.m */,
-				489A5C7C9F65AAD50220820DDEA328FA /* NCMBCloseImageView.h */,
-				FD77A4990009AFB43F9843C8B9557634 /* NCMBCloseImageView.m */,
-				0CDAF2570C449CC91A8FA7B0256DD0C4 /* NCMBConstants.h */,
-				AADEE382DD235BAC1D177378F8D8BBAE /* NCMBDateFormat.h */,
-				39F9F157357C56B897F54F098805FC21 /* NCMBDateFormat.m */,
-				259E908299BCA20044BE2E1647328FD3 /* NCMBDeleteOperation.h */,
-				6A8B8D2BA09A83761A00FE6E5BE6D35E /* NCMBDeleteOperation.m */,
-				96FADE53C549E6487B227A82CC494606 /* NCMBError.h */,
-				D8E4D5C21D784D83FC7073AA4B1CA549 /* NCMBError.m */,
-				73DB56FF1BDE69EF4E91D8F7BCE47709 /* NCMBFile.h */,
-				E4DDD097B8C598932C007D364AC23713 /* NCMBFile.m */,
-				6D001D6CAEC3AA38BDFDE3D647A44C18 /* NCMBGeoPoint.h */,
-				4657D4378B47923BD7478273C06F4510 /* NCMBGeoPoint.m */,
-				BCDF8C8CEB158B148EF488678A0E36CE /* NCMBIncrementOperation.h */,
-				4AB30EF41F9091B89FC50EDE5512BEC8 /* NCMBIncrementOperation.m */,
-				A80B584FA52B2A4372834D8AF3579CC6 /* NCMBInstallation.h */,
-				4A84FC0EF38E2B7C0BBDFF4CAE9BAF14 /* NCMBInstallation.m */,
-				DC630898AB53ABCB4E1AA6D87CE64BAA /* NCMBObject.h */,
-				310B478EFD19A07EDE76F6AB3159EB32 /* NCMBObject.m */,
-				62F45D0B14D0F0F2CEF952E75C93074D /* NCMBObject+Private.h */,
-				4532FB18FC856E2AE5FF56C6683818CA /* NCMBObject+Subclass.h */,
-				DF960FEEE11121EBFA04C384666A021D /* NCMBPush.h */,
-				E8251233576B22B00DC4B2B8E1BE22D1 /* NCMBPush.m */,
-				E3078038A8109B90D9233EB7D39B0418 /* NCMBQuery.h */,
-				8F44808C2CE50ED5ECCF6501F9B4DEAE /* NCMBQuery.m */,
-				84816E17D7650CDB3B6E1C0972ECC122 /* NCMBQuery+Private.h */,
-				FD03ED374DD90B77B558A9EE93F6A2EC /* NCMBReachability.h */,
-				A79E28DFCFD4DB953F3CAD3E39555D58 /* NCMBReachability.m */,
-				3A045B22986A552EBAFFFA7F7F6885CF /* NCMBRelation.h */,
-				91F219CC6290ADCE205F4E79770FB0EB /* NCMBRelation.m */,
-				70CFC178CDB3F7F6F137048C76E42FFD /* NCMBRelation+Private.h */,
-				AFA49B9197E7A11683799D9267644B26 /* NCMBRelationOperation.h */,
-				D1787D49010A25ACF1A9A3740BF633AD /* NCMBRelationOperation.m */,
-				9CF37589BF3137F84356F660B63FCB96 /* NCMBRemoveOperation.h */,
-				CFE8E610CD1C00DF4558D8530D367E63 /* NCMBRemoveOperation.m */,
-				8E5E1A6FC2012CD5373CFC7FF064F247 /* NCMBRequest.h */,
-				93A9BF8A86E7C8C90809F3ED6ACD45FA /* NCMBRequest.m */,
-				CCDD188A5B5FA79EDB7FD2DDC61C03F5 /* NCMBRichPushView.h */,
-				F00D4B1BABFAACD4E9B22D0022B335A7 /* NCMBRichPushView.m */,
-				630EC8519EFFC21C19C0CCA0483626A6 /* NCMBRole.h */,
-				5757946E6397533D1C5B0700C40631D7 /* NCMBRole.m */,
-				F6723AF2275FB17C11749D5F9FA828E8 /* NCMBScript.h */,
-				B102B47AB12EDE605A7B6CD59166B06E /* NCMBScript.m */,
-				706DE79FBF76304B479FAC2C4F6A2D4A /* NCMBScriptService.h */,
-				01E1CE0AD851488D1DB7671DE5487C15 /* NCMBScriptService.m */,
-				4D5AD13EFB125223215747621A9D396C /* NCMBSetOperation.h */,
-				2E6BF39AA9DBD3E41C18B48FF3031DA2 /* NCMBSetOperation.m */,
-				B6284D894F2AB9648CD0023DA4EEC30E /* NCMBSubclassing.h */,
-				585EC433E87B39F629041E972CD489C7 /* NCMBURLSession.h */,
-				88DF1B7FD9179942AD6637436F83B683 /* NCMBURLSession.m */,
-				7830323A3DC0D94313ECB552199A72CF /* NCMBUser.h */,
-				F99F502D6CF22C79D693660E3483C554 /* NCMBUser.m */,
-				ACAE6DFE09A538E88D0101BF67AD7428 /* NCMBUser+Private.h */,
-				0D94C595BA7406043DA1078619B0D37D /* NSDataBase64Encode.h */,
-				6853E7735CD341A197578AC33BDED8F2 /* NSDataBase64Encode.m */,
-				470247C713ED93AFD8482CCEAB0E0EE5 /* SubClassHandler.h */,
-				D34254109CE7894CA409FA3C2F0FA627 /* SubClassHandler.m */,
-				46B51849BF5A3F4999CF5818CE8A52F8 /* Support Files */,
+				E08C126240ADAA3C7F79D5D2E9A883F7 /* AlertAction.swift */,
+				FC1979777A48391E65D5761DEA7EEEAF /* AlertConstants.swift */,
+				92673BF478B8272C6DE82AA6145F77A0 /* APIManager.swift */,
+				7092ACC729A2385E53C3794422EC26CE /* APIModel.swift */,
+				A8CA26E08178332120BA1BBFF5C56404 /* BundleExtension.swift */,
+				CECD1429C11C77C38C43AD491AA46277 /* DataParser.swift */,
+				B84238DE9845945A8B9072E843B00062 /* DateExtension.swift */,
+				237659F42D92A862B5A098A87E9A817B /* KnownError.swift */,
+				1CCF01E6BA4C94F75B7AA2650C09AACA /* Localization.swift */,
+				BC961CB8A4B243C60FCD31A1FC6AA3A6 /* Model.swift */,
+				188AB4B7D71C51F7A1AD41FF4C5722AA /* PerformCheck.swift */,
+				86493C00A46F85A1DF2FD441B0DFAE93 /* PresentationManager.swift */,
+				9471723ED8E5D16BFF0B45AAB45A7083 /* Rules.swift */,
+				8C255738A18B4F2E00C4584795752E9C /* RulesManager.swift */,
+				D54F02C1A24366277AE4DBB8898229D5 /* Siren.swift */,
+				E06D4AA399E2E6078012E419DA906881 /* SirenViewController.swift */,
+				C3AB764493914A6857F25FCA6BCFF5EE /* UIAlertControllerExtension.swift */,
+				A12DFFE75F864AFB1D7A8313DF0B226E /* UpdateResults.swift */,
+				CBF5AAF12F66004D436A96FDB2DB1210 /* UserDefaultsExtension.swift */,
+				A60B2950EA32C53EBD016457103DE7E5 /* Resources */,
+				48535A4ED9A06D82493CDC6588FCB2AD /* Support Files */,
+			);
+			name = Siren;
+			path = Siren;
+			sourceTree = "<group>";
+		};
+		7EA883580CB3DD40AD5C222F53C0A91B /* NCMB */ = {
+			isa = PBXGroup;
+			children = (
+				D6DD8FF3C506B4D3DACEE42B294A282E /* NCMB.h */,
+				186922509FEFBC3104CC16BED10BB060 /* NCMB.m */,
+				D4CF8092D90466DFBB192D10E6BFAD1D /* NCMB_umbrella.h */,
+				94FC446B2CEB28A5862E4AF39EFFEAFA /* NCMBACL.h */,
+				4AB32319223E1648FADE7B286E52FCDD /* NCMBACL.m */,
+				BB4703B73EC68B6A1F098683D091CF93 /* NCMBAddOperation.h */,
+				2C8A09BC38415C44A8E63FC8BA209A08 /* NCMBAddOperation.m */,
+				B07A25159A41396CAE331E51F76DB8A9 /* NCMBAddUniqueOperation.h */,
+				59F5F0D9A501331AE9C8AFC3802ACF87 /* NCMBAddUniqueOperation.m */,
+				74081643304BCD38C851FCD520069685 /* NCMBAnalytics.h */,
+				2515136550DA82309AE09F3821A1ED2C /* NCMBAnalytics.m */,
+				0650E64FA2C461FE918F25B8E26172B6 /* NCMBAnonymousUtils.h */,
+				0857B730CD44A133835F66447278AB39 /* NCMBAnonymousUtils.m */,
+				BAFF79BE13911D95B06D5BE17C6CB8B2 /* NCMBCloseImageView.h */,
+				3F91A881CBCB5B1A3A91BC7CECEBCF34 /* NCMBCloseImageView.m */,
+				6DA6A37B44B4782384E14D65663B282C /* NCMBConstants.h */,
+				56BF8B68BFD8847C6A86A9E68DBA587C /* NCMBDateFormat.h */,
+				7E6000CEAFCCA1C362BE524878F745DE /* NCMBDateFormat.m */,
+				B1705002365C424EDCE479D29E9107D2 /* NCMBDeleteOperation.h */,
+				04DBD91D682B4A127BD3B30A5A9848C6 /* NCMBDeleteOperation.m */,
+				6293376DE3416D38CAA6992ED1731072 /* NCMBError.h */,
+				45A4D24FC3A56D2698646780AC7882AA /* NCMBError.m */,
+				F0AA66AD272FA2DBAB00A783CDC95D72 /* NCMBFile.h */,
+				78CFA1D1A8F42E124C8577DCD0048A99 /* NCMBFile.m */,
+				F248094E7BBB6AEA2503AD6E20549610 /* NCMBGeoPoint.h */,
+				D869C323D2999BF6B06EC2B658818E82 /* NCMBGeoPoint.m */,
+				86411A6FDFA2A0C3A27D57D3A197CFDD /* NCMBIncrementOperation.h */,
+				FFA97D2FEA1D672DB12AA62C60E251AA /* NCMBIncrementOperation.m */,
+				D85C0006DBD93A99CBC3930923276BE0 /* NCMBInstallation.h */,
+				5ED9EDFE6E927C8571B0891C53C01C9D /* NCMBInstallation.m */,
+				C49CAD1BB54F5A7D571AA0CBAB5C5315 /* NCMBObject.h */,
+				69E891E6662E183290D8BAE0BCDC304F /* NCMBObject.m */,
+				7440F0A0A5D75290ED82B95E69F97720 /* NCMBObject+Private.h */,
+				BAC8CCD50EB56359779FE1E320E17303 /* NCMBObject+Subclass.h */,
+				E12BAA3BEBF1BB9ABBB63FC81AB51076 /* NCMBPush.h */,
+				DF5C7E002ECF6540A92D5DD9FA48055C /* NCMBPush.m */,
+				B4F73EEA66923EAD05FF768FEE368205 /* NCMBQuery.h */,
+				42F2D9BFD5DC2F40ED08224FB5197E32 /* NCMBQuery.m */,
+				03FBDAC2DEA7F9B21BE8FDF89F63FC71 /* NCMBQuery+Private.h */,
+				C35AC249C010A7DF65C9601086ADD6C1 /* NCMBReachability.h */,
+				3B8FBE6368B2269FCC02D1E0C6AEF5CF /* NCMBReachability.m */,
+				DF039E3DB9DFAE0971003E04E1F5D4BF /* NCMBRelation.h */,
+				9B79BC9AE3AF3BB290559021535581D5 /* NCMBRelation.m */,
+				1729782C7541B7ABEA9A07B3BA4F9A0C /* NCMBRelation+Private.h */,
+				A07738771F53EC71F7CEDE2F5B95BD28 /* NCMBRelationOperation.h */,
+				A871F6C9ECB42A89A407446000CE7B67 /* NCMBRelationOperation.m */,
+				768D96A3CA8F30F232A9426D6736E6C0 /* NCMBRemoveOperation.h */,
+				0427DAA8716133C999DF9417CF3D9AEA /* NCMBRemoveOperation.m */,
+				4D2A23CE2C022A5EEED27A9283E616C2 /* NCMBRequest.h */,
+				DBF26C5B7E408CEC9BAA2E8736B77A89 /* NCMBRequest.m */,
+				EEC11B1AD50FCF54985B2201FC71A89A /* NCMBRichPushView.h */,
+				21825A2399886A0E12253A47762CE5DB /* NCMBRichPushView.m */,
+				1A1E61E8CF7ADD9273C3AABC99E5C9F1 /* NCMBRole.h */,
+				72E3F617832DB6AB7D60AA6C1B5F82FD /* NCMBRole.m */,
+				25691DEB8E8A2C7D91194755279BAA64 /* NCMBScript.h */,
+				C9E95CE597EFB44E5BBC61C46DAA58C1 /* NCMBScript.m */,
+				E3100FB9227CECF5A764C01A6292D9C6 /* NCMBScriptService.h */,
+				D983D2218395289B290EB6AAFEDD6EBA /* NCMBScriptService.m */,
+				641473896D27DEEA661C9AFFFBD378D6 /* NCMBSetOperation.h */,
+				7A9AF247BC5346EB08A18AE7635E31EB /* NCMBSetOperation.m */,
+				2412E63E08C4C5555336D40A0AA6C652 /* NCMBSubclassing.h */,
+				736F16B2C2BC25119B830357575ED418 /* NCMBURLSession.h */,
+				5266F50F87487E9B0739C7D7C54E7461 /* NCMBURLSession.m */,
+				1E3307F7F50C24F2BDB5A5ABAFCECFFB /* NCMBUser.h */,
+				04B7A6FD1EC891A7BA9323D565B4D171 /* NCMBUser.m */,
+				A475BFF880AA1F38D04498985A5A0061 /* NCMBUser+Private.h */,
+				FAEBDD97B9F60A2F6FE935CB635ACBE4 /* NSDataBase64Encode.h */,
+				A59E72A5B22BACFE56ADA33A842053C2 /* NSDataBase64Encode.m */,
+				91FADAB7815E3BB07F4BCBD90B274AF3 /* SubClassHandler.h */,
+				4CEF51D615BBCE64BE4CF7DC84D226E6 /* SubClassHandler.m */,
+				4E10C3A785FDDE5FC8638E35DE9B1B6E /* Support Files */,
 			);
 			name = NCMB;
 			path = NCMB;
+			sourceTree = "<group>";
+		};
+		A60B2950EA32C53EBD016457103DE7E5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				64174420E09D629DC750BEB0B09A5C5D /* Siren.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B1D1342938A86AF1A83A6BAF3C0FAB7F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4DE9599CF9E035B83A4C5F370F447F0 /* CDAlertView */,
+				7EA883580CB3DD40AD5C222F53C0A91B /* NCMB */,
+				7645E54AFC325CB8877CD9F81F43F244 /* Siren */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		B831F5A95CC9ACB4CADA1206123BC179 /* Targets Support Files */ = {
@@ -376,28 +588,93 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C8A3BF3A684399E1D5B3F686617852FD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F6D3A1544CE14992EFAB6D77F2965CC2 /* alarmFilled@1x.png */,
+				BED3AF839A6F74D0410AAD1A3ADC6981 /* alarmFilled@2x.png */,
+				7FB161D772498486D847C9BB0279A177 /* alarmFilled@3x.png */,
+				5AD07327F4D34FBDE152DD47FCD50049 /* alarmOutline@1x.png */,
+				8B18A323F74FE37FC6AD425C1663217A /* alarmOutline@2x.png */,
+				ECBBBD44A592A6BA87E0E7D9680A8426 /* alarmOutline@3x.png */,
+				FB14720B26DC8ADDD0BF98A2346A1207 /* check@1x.png */,
+				08EAAF9F03E4D6DFEFE1054A5C52480A /* check@2x.png */,
+				1AD8611F72C978CCCF2085B098CA96F2 /* check@3x.png */,
+				A2E2BB861CC1A2C2BBCFA6698E680BA5 /* error@1x.png */,
+				F1155A14246F529130A8342F8A9FAE13 /* error@2x.png */,
+				7D323FFE81A0A2565816173BEC43A769 /* error@3x.png */,
+				142A93090543BB428A25E64F08D2AC81 /* notificationFilled@1x.png */,
+				C50C08ED07A58D82E4C6B21083E36EE9 /* notificationFilled@2x.png */,
+				C6FD67DAEA98F2E521F3E9E6958938E7 /* notificationFilled@3x.png */,
+				7CE9026ABBAFB9C683A8E266FA33DE49 /* notificationOutline@1x.png */,
+				61CBDF660C04DBF4CFC39BCC3434924E /* notificationOutline@2x.png */,
+				61F669D7CB72B79D580052116CEA9EB7 /* notificationOutline@3x.png */,
+				A3F9E50B50DB40002F25202B37DA0FC8 /* warningFilled@1x.png */,
+				80C5DA56881E977C5D43572EADBDBCB2 /* warningFilled@2x.png */,
+				7765B0987AD200B22C4A2766ADFE6709 /* warningFilled@3x.png */,
+				5DEE5CF0B8B60CBFF73F63A56F6BC3BB /* warningOutline@1x.png */,
+				BEFEE1568E455BB83E725CE5C9D858C4 /* warningOutline@2x.png */,
+				A7EEE14A0DECB21A09C4ED1C42CB890D /* warningOutline@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CA5C103BB3FB272673D1B6B32C0BA58B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDA2C023CF78316294ACA96020D60281 /* CDAlertView.modulemap */,
+				9BF31CA75AC734A817B959D94182B594 /* CDAlertView-dummy.m */,
+				B3F1D9C27DF2E39B15E06DFC0BE78E3F /* CDAlertView-Info.plist */,
+				60A8CF4D0FA452277225BCD55FE50C17 /* CDAlertView-prefix.pch */,
+				66F82A7DF8EEDAD4BBFA323EAF60BCD6 /* CDAlertView-umbrella.h */,
+				55C9700176A40E258B1A52CB221E99ED /* CDAlertView.debug.xcconfig */,
+				A5F65FCE1DD67EA74A7E39A43E01627E /* CDAlertView.release.xcconfig */,
+				91D5A8F1082B71B93CA80EDF54759312 /* ResourceBundle-CDAlertView-CDAlertView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CDAlertView";
+			sourceTree = "<group>";
+		};
+		CD6711A985CE1A2F913B08E059231A86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E417FD65D5A1F9B3171583531D47A61C /* CDAlertView.bundle */,
+				497444E3780E44ED4F4672834DCE1ED8 /* CDAlertView.framework */,
+				E0359D6C026DD5A26046CC51BB762AFE /* NCMB.framework */,
+				CE7863835C032998BE42B3923749C373 /* Pods_NCMBMemo.framework */,
+				17E70395B3CDD0B7EDA622612E2C3144 /* Siren.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				B94D7768568A9992200DB461E8CF687F /* Frameworks */,
-				41966812ADDD82942CB2C71F3C5F2B08 /* Pods */,
-				24DB2B1EDA26F5419A673BB96DCE85B9 /* Products */,
+				B1D1342938A86AF1A83A6BAF3C0FAB7F /* Pods */,
+				CD6711A985CE1A2F913B08E059231A86 /* Products */,
 				B831F5A95CC9ACB4CADA1206123BC179 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D4DE9599CF9E035B83A4C5F370F447F0 /* CDAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				C1C6063A03E91E930F037D7C782A7A68 /* CDAlertHeaderView.swift */,
+				C806AB315039684627F2E430051608A3 /* CDAlertView.swift */,
+				D1ED1C6A96D0C0ED679E70B762F56891 /* ImageHelper.swift */,
+				7B6B3D791E9DA0525CB29CD2A2A8897D /* LayoutConstraintsExtension.swift */,
+				C8A3BF3A684399E1D5B3F686617852FD /* Resources */,
+				CA5C103BB3FB272673D1B6B32C0BA58B /* Support Files */,
+			);
+			name = CDAlertView;
+			path = CDAlertView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		237585CC1119F9B58F8F9F4753FEA9C5 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C8C0351B8121771796D790AC52722BC2 /* Pods-NCMBMemo-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		56322F9EBAF63EDCA997407F580844D5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -445,6 +722,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BDD8D4DED0D72FA2999F2B310EEF7019 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09D35842B7A2E366F6485070744C38CF /* Pods-NCMBMemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C62188B2F95A9AFDD83EAFF1D0038190 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F495953C822AB3C8F76F889D46F3CCAB /* Siren-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC0252D98A1F63CA3BEB2138691B27B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60A7C13CEB175774C3C3AAB55A7905AD /* CDAlertView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -466,24 +767,80 @@
 			productReference = E0359D6C026DD5A26046CC51BB762AFE /* NCMB.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9C9DA9B66DD09D088E8C3EB9C6C60570 /* Pods-NCMBMemo */ = {
+		99AC7779AA0E07D337CFA388DF690218 /* CDAlertView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BC1B127356C100173DF4E202A80E618E /* Build configuration list for PBXNativeTarget "Pods-NCMBMemo" */;
+			buildConfigurationList = 5E99BCDCF127903A67C5457407F81E3F /* Build configuration list for PBXNativeTarget "CDAlertView" */;
 			buildPhases = (
-				237585CC1119F9B58F8F9F4753FEA9C5 /* Headers */,
-				C2B18D73CB470A818F23617814DB8E0F /* Sources */,
-				6A0E2ED380D04797F94F66A3536228DA /* Frameworks */,
-				822BF88FBA2EB8E7B9E2DD25DD1D0C8B /* Resources */,
+				FCC0252D98A1F63CA3BEB2138691B27B /* Headers */,
+				A0BCF917830E31B890E73BEE00729979 /* Sources */,
+				235DB52A2B979059A87E50E1B0549875 /* Frameworks */,
+				D36A872904C094FE3E697E58E76E51D5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2CEBED01FF8A09C0D5635D5CC93ADACF /* PBXTargetDependency */,
+				1EF799AD9A290044AB94FD0F6EFB6D08 /* PBXTargetDependency */,
+			);
+			name = CDAlertView;
+			productName = CDAlertView;
+			productReference = 497444E3780E44ED4F4672834DCE1ED8 /* CDAlertView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9C9DA9B66DD09D088E8C3EB9C6C60570 /* Pods-NCMBMemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA1DC07D25F5A41A63D9AF4D37A4A5E5 /* Build configuration list for PBXNativeTarget "Pods-NCMBMemo" */;
+			buildPhases = (
+				BDD8D4DED0D72FA2999F2B310EEF7019 /* Headers */,
+				C190649274A7C1F29A038FB78925C905 /* Sources */,
+				79A1A4690F427CDD4F7CA9A94A45227C /* Frameworks */,
+				1C5665EC80BE17D3690EDCF766403EFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21F9EC2FB5A6B76612622FEF80DCDAAF /* PBXTargetDependency */,
+				893926C42A7D4F0F96488B6154547E7C /* PBXTargetDependency */,
+				959D7A83F5ED6D66194328DD4CEA2E85 /* PBXTargetDependency */,
 			);
 			name = "Pods-NCMBMemo";
 			productName = "Pods-NCMBMemo";
 			productReference = CE7863835C032998BE42B3923749C373 /* Pods_NCMBMemo.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		A0E2640B83527AE54205D7FDE9C5D930 /* Siren */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F594E892399BB39F2583F6A7D9A96B62 /* Build configuration list for PBXNativeTarget "Siren" */;
+			buildPhases = (
+				C62188B2F95A9AFDD83EAFF1D0038190 /* Headers */,
+				264CF96C74D406B971808A82D142BB6C /* Sources */,
+				FAE91B21410FB273F0E34CC816F18B15 /* Frameworks */,
+				CA3955D7D9D118302F052E827804D057 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Siren;
+			productName = Siren;
+			productReference = 17E70395B3CDD0B7EDA622612E2C3144 /* Siren.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F08944E713B18D3C01A791D5A3614D1F /* CDAlertView-CDAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9795BDC499EECEAF775E962932E2A18D /* Build configuration list for PBXNativeTarget "CDAlertView-CDAlertView" */;
+			buildPhases = (
+				6FFEFDD8BF9164ED07E4B21D037FEFD4 /* Sources */,
+				AF2F15D07CAF7C6E72D809A2A52C6BB6 /* Frameworks */,
+				FD7B966BCC535E98AA182B66218DA27D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CDAlertView-CDAlertView";
+			productName = "CDAlertView-CDAlertView";
+			productReference = E417FD65D5A1F9B3171583531D47A61C /* CDAlertView.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -495,7 +852,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -503,21 +860,40 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 24DB2B1EDA26F5419A673BB96DCE85B9 /* Products */;
+			productRefGroup = CD6711A985CE1A2F913B08E059231A86 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				99AC7779AA0E07D337CFA388DF690218 /* CDAlertView */,
+				F08944E713B18D3C01A791D5A3614D1F /* CDAlertView-CDAlertView */,
 				708C9E37EBCF518B058EFF5E163C4E98 /* NCMB */,
 				9C9DA9B66DD09D088E8C3EB9C6C60570 /* Pods-NCMBMemo */,
+				A0E2640B83527AE54205D7FDE9C5D930 /* Siren */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		822BF88FBA2EB8E7B9E2DD25DD1D0C8B /* Resources */ = {
+		1C5665EC80BE17D3690EDCF766403EFD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3955D7D9D118302F052E827804D057 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97A7BC70F5C2B80E8BD698FF4F76D3EA /* Siren.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D36A872904C094FE3E697E58E76E51D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7795E3F4556B24FF0DACCC4CC9F1E7B0 /* CDAlertView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,6 +901,37 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7B966BCC535E98AA182B66218DA27D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A314346D4AD0D01BB4575A7496FD1FE /* alarmFilled@1x.png in Resources */,
+				EEFD171C29E9BC49872092BBE1D7F753 /* alarmFilled@2x.png in Resources */,
+				1DAE8F00388896025CF1F93FDF18AAE4 /* alarmFilled@3x.png in Resources */,
+				21C8DD3D989FAEB810C122DABA08AE7B /* alarmOutline@1x.png in Resources */,
+				410BE22E3E90F5D3628E6AAF0B26415B /* alarmOutline@2x.png in Resources */,
+				7F62581E50C7FBED525FFE588EA2C72D /* alarmOutline@3x.png in Resources */,
+				D0E33C7A69D704F37F77347572412086 /* check@1x.png in Resources */,
+				300BFA96943FCEFAFFEE2B95C9906091 /* check@2x.png in Resources */,
+				FE05B34119A65F2C1F4F6FAC5E6B3A9E /* check@3x.png in Resources */,
+				A7982633BE5209839C7E0D37E932A4FF /* error@1x.png in Resources */,
+				CCA6031B895A3FE7666514D458FFC411 /* error@2x.png in Resources */,
+				0F40AC97654318A41BED5B454FBA9D41 /* error@3x.png in Resources */,
+				056BF50CF7609C11D94EBC1F8CD88C1C /* notificationFilled@1x.png in Resources */,
+				C4E0FA33AEDF46A51B64588DC4B1B014 /* notificationFilled@2x.png in Resources */,
+				141277A59ABE2FA9FE18839FCF1DE9D6 /* notificationFilled@3x.png in Resources */,
+				A16C86D03E90FA8A37257BFC7AD2639B /* notificationOutline@1x.png in Resources */,
+				04EDE5DD9435F952211C2E1D5B48EC87 /* notificationOutline@2x.png in Resources */,
+				1BE2670632CF554CFF73C45294301BB9 /* notificationOutline@3x.png in Resources */,
+				6E5F2E9749023D8104A6E4C54AA452BA /* warningFilled@1x.png in Resources */,
+				134605856BCD5D0F203083C9B8E0B882 /* warningFilled@2x.png in Resources */,
+				CAD9D95EC71EFE9889E432399A6CF5F8 /* warningFilled@3x.png in Resources */,
+				B47F397D57A105976F1667FD2D2E952A /* warningOutline@1x.png in Resources */,
+				1715CA297029445CEDA6BAFD19CE7D60 /* warningOutline@2x.png in Resources */,
+				AD77B9A7707F2C36975F00395C7F56C0 /* warningOutline@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -570,29 +977,93 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C2B18D73CB470A818F23617814DB8E0F /* Sources */ = {
+		264CF96C74D406B971808A82D142BB6C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E8C34F37923E91E4B7C416DFC962CCA /* Pods-NCMBMemo-dummy.m in Sources */,
+				E2E993BFDABB259A66775EF1F5B8AC10 /* AlertAction.swift in Sources */,
+				E836D575C26F51F4F86D1AAF037D227E /* AlertConstants.swift in Sources */,
+				F42505CB05F16256F94DF0A2FD80120F /* APIManager.swift in Sources */,
+				C3077748FAD14B032F7AD71A7CEAF4E4 /* APIModel.swift in Sources */,
+				133E0626134290ECCB2F13D75F47EEAC /* BundleExtension.swift in Sources */,
+				65C14DD94A9DF06FB60F29787A5BFF3A /* DataParser.swift in Sources */,
+				E4E992FF7FF7A205CA9BAC7FAD7358AA /* DateExtension.swift in Sources */,
+				854DFD1C840A420BEAEE3CDC4E1698A1 /* KnownError.swift in Sources */,
+				297080A4D44C2196AA466E8F2E7E542C /* Localization.swift in Sources */,
+				BF7CB899C8BCD08F7822E36F103D8C70 /* Model.swift in Sources */,
+				A89B27A82ECFDCDDBDB3DA4214A51F84 /* PerformCheck.swift in Sources */,
+				1C2537619CE322E437E2279BD24F3B53 /* PresentationManager.swift in Sources */,
+				A22F41F8672D37C174EAF92AAEF4FD9B /* Rules.swift in Sources */,
+				5CAFBF14933FAC65691E431F94755BA3 /* RulesManager.swift in Sources */,
+				3BF4C13346D27A34093156285C8E0871 /* Siren-dummy.m in Sources */,
+				8C5617D5664B5B96CBFA2E73E24FCD5D /* Siren.swift in Sources */,
+				49468580B9DBEEDAABDA53922A67CDE0 /* SirenViewController.swift in Sources */,
+				05F66DC92575A29ED168E1E8FD72FD4C /* UIAlertControllerExtension.swift in Sources */,
+				B970946E2CC2A6D0E6FB6721DBCF1BE0 /* UpdateResults.swift in Sources */,
+				4653AA09838F71BFC8B7A728ABAB2732 /* UserDefaultsExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FFEFDD8BF9164ED07E4B21D037FEFD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0BCF917830E31B890E73BEE00729979 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE3E362CE36A496D2C05596BD974C530 /* CDAlertHeaderView.swift in Sources */,
+				A2443E13B887821B170511DF6A62C8E7 /* CDAlertView-dummy.m in Sources */,
+				938AFDF901391B92DFA3499252471CA6 /* CDAlertView.swift in Sources */,
+				9CC2ED552A33A9E078F82629E203F2BB /* ImageHelper.swift in Sources */,
+				A342EC9CFF82B7DB72A0E318E6106496 /* LayoutConstraintsExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C190649274A7C1F29A038FB78925C905 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB97B26F95E40242DF97B45834515E08 /* Pods-NCMBMemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2CEBED01FF8A09C0D5635D5CC93ADACF /* PBXTargetDependency */ = {
+		1EF799AD9A290044AB94FD0F6EFB6D08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CDAlertView-CDAlertView";
+			target = F08944E713B18D3C01A791D5A3614D1F /* CDAlertView-CDAlertView */;
+			targetProxy = 07BBFF311D8F8964BC971526EEECB22A /* PBXContainerItemProxy */;
+		};
+		21F9EC2FB5A6B76612622FEF80DCDAAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CDAlertView;
+			target = 99AC7779AA0E07D337CFA388DF690218 /* CDAlertView */;
+			targetProxy = CAEDC32C78E422CAFC0C5C2F02C01CDA /* PBXContainerItemProxy */;
+		};
+		893926C42A7D4F0F96488B6154547E7C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = NCMB;
 			target = 708C9E37EBCF518B058EFF5E163C4E98 /* NCMB */;
-			targetProxy = C575251D1E022DFCB23BA2CE6508A2DC /* PBXContainerItemProxy */;
+			targetProxy = 3044C684226295237BE912557F7F032C /* PBXContainerItemProxy */;
+		};
+		959D7A83F5ED6D66194328DD4CEA2E85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Siren;
+			target = A0E2640B83527AE54205D7FDE9C5D930 /* Siren */;
+			targetProxy = 044ED514F3905143A5BF2F26C3040B86 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0CA7A93D3660CA70189B2660B4AB2BC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 536E139BB1B4131C4C821604F83E8173 /* NCMB.debug.xcconfig */;
+			baseConfigurationReference = 7A0F95223585428BD5372B99279558C4 /* NCMB.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -625,7 +1096,43 @@
 			};
 			name = Debug;
 		};
-		5821F110B90E7DF70FAF031A72DD5CD5 /* Release */ = {
+		2FBC4B5756D718AFEF0BF7B16524BE19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55C9700176A40E258B1A52CB221E99ED /* CDAlertView.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CDAlertView/CDAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CDAlertView/CDAlertView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CDAlertView/CDAlertView.modulemap";
+				PRODUCT_MODULE_NAME = CDAlertView;
+				PRODUCT_NAME = CDAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3BCA6570114B6BF61FF9CDA656754171 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 897BB0F1917CE9659BA6F71DAA0FB412 /* Pods-NCMBMemo.release.xcconfig */;
 			buildSettings = {
@@ -661,6 +1168,148 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3DC56AEE88A6FEB494CDAE52ADC853C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5F65FCE1DD67EA74A7E39A43E01627E /* CDAlertView.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CDAlertView/CDAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CDAlertView/CDAlertView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CDAlertView/CDAlertView.modulemap";
+				PRODUCT_MODULE_NAME = CDAlertView;
+				PRODUCT_NAME = CDAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		56C4C26B1003F11667BB7FA3FFD49E08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55C9700176A40E258B1A52CB221E99ED /* CDAlertView.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CDAlertView";
+				IBSC_MODULE = CDAlertView;
+				INFOPLIST_FILE = "Target Support Files/CDAlertView/ResourceBundle-CDAlertView-CDAlertView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = CDAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		574FCEE40A6774B1E9B470FCA673A15E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0860BB813FA6ACB75EADBB074DCB4C2 /* Siren.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Siren/Siren-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Siren/Siren-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Siren/Siren.modulemap";
+				PRODUCT_MODULE_NAME = Siren;
+				PRODUCT_NAME = Siren;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		62742A775FD8E7B09B2208E8E991F100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8A1CA9C0C42653C8824789BDA8173C3 /* Siren.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Siren/Siren-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Siren/Siren-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Siren/Siren.modulemap";
+				PRODUCT_MODULE_NAME = Siren;
+				PRODUCT_NAME = Siren;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63D7C96628991DA3857B06099954E43C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5F65FCE1DD67EA74A7E39A43E01627E /* CDAlertView.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CDAlertView";
+				IBSC_MODULE = CDAlertView;
+				INFOPLIST_FILE = "Target Support Files/CDAlertView/ResourceBundle-CDAlertView-CDAlertView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = CDAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -728,44 +1377,6 @@
 			};
 			name = Debug;
 		};
-		75F00D357C08A4F431381DAC4B63D28F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BEFCA33D9CD95463585F339EE43BACE7 /* Pods-NCMBMemo.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NCMBMemo/Pods-NCMBMemo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NCMBMemo/Pods-NCMBMemo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		7DC5F11AFBEAE473E8D3C24A2D11338D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -826,9 +1437,47 @@
 			};
 			name = Release;
 		};
+		A65EFC232F6B69830DF7F7D5EF0FA865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEFCA33D9CD95463585F339EE43BACE7 /* Pods-NCMBMemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NCMBMemo/Pods-NCMBMemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NCMBMemo/Pods-NCMBMemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		EC727A43436B40CF49CCC8BA5C8B6E49 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A307CCA4E452CF72A7DC0AFDE01CDEC3 /* NCMB.release.xcconfig */;
+			baseConfigurationReference = 6D2018A3EFAD6057C35101F15CC0A394 /* NCMB.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -883,11 +1532,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BC1B127356C100173DF4E202A80E618E /* Build configuration list for PBXNativeTarget "Pods-NCMBMemo" */ = {
+		5E99BCDCF127903A67C5457407F81E3F /* Build configuration list for PBXNativeTarget "CDAlertView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				75F00D357C08A4F431381DAC4B63D28F /* Debug */,
-				5821F110B90E7DF70FAF031A72DD5CD5 /* Release */,
+				2FBC4B5756D718AFEF0BF7B16524BE19 /* Debug */,
+				3DC56AEE88A6FEB494CDAE52ADC853C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9795BDC499EECEAF775E962932E2A18D /* Build configuration list for PBXNativeTarget "CDAlertView-CDAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56C4C26B1003F11667BB7FA3FFD49E08 /* Debug */,
+				63D7C96628991DA3857B06099954E43C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA1DC07D25F5A41A63D9AF4D37A4A5E5 /* Build configuration list for PBXNativeTarget "Pods-NCMBMemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A65EFC232F6B69830DF7F7D5EF0FA865 /* Debug */,
+				3BCA6570114B6BF61FF9CDA656754171 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F594E892399BB39F2583F6A7D9A96B62 /* Build configuration list for PBXNativeTarget "Siren" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				574FCEE40A6774B1E9B470FCA673A15E /* Debug */,
+				62742A775FD8E7B09B2208E8E991F100 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

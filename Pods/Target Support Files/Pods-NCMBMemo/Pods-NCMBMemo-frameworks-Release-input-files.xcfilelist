@@ -1,2 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-NCMBMemo/Pods-NCMBMemo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CDAlertView/CDAlertView.framework
 ${BUILT_PRODUCTS_DIR}/NCMB/NCMB.framework
+${BUILT_PRODUCTS_DIR}/Siren/Siren.framework

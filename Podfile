@@ -7,4 +7,7 @@ target 'NCMBMemo' do
 
   # Pods for NCMBMemo
   pod 'NCMB', :git => 'https://github.com/NIFCLOUD-mbaas/ncmb_ios.git'
+  
+  pod 'Siren'
+  pod "CDAlertView"
 end
