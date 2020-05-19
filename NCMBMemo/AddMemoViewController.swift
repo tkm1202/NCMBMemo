@@ -7,13 +7,20 @@
 //
 
 import UIKit
+import NCMB
 
 class AddMemoViewController: UIViewController {
-
+    
+    @IBOutlet var memoTextView: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        memoTextView.becomeFirstResponder()
     }
     
 
@@ -26,5 +33,21 @@ class AddMemoViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    @IBAction func save(){
+        let object = NCMBObject(className: "Memo")
+        object?.setObject(memoTextView.text, forKey: "memo")
+        object?.saveInBackground({ (error) in
+            if error != nil{
+                print(error)
+            }else{
+                let alertController = UIAlertController(title: "保存完了", message: "メモの保存が完了しました", preferredStyle: .alert)
+                let action = UIAlertAction(title: "OK", style: .default,handler:  { (action) in
+                    self.navigationController?.popViewController(animated: true)
+                })
+                alertController.addAction(action)
+                self.navigationController?.popViewController(animated: true)
+            }
+        })
+    }
 
 }

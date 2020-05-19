@@ -7,24 +7,27 @@
 //
 
 import UIKit
+import NCMB
 
 class DetailViewController: UIViewController {
+    var selectedMemo: NCMBObject!
+    @IBOutlet var memoTextView: UITextView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        memoTextView.text = selectedMemo.object(forKey: "memo") as! String
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func update(){
+        selectedMemo.setObject(memoTextView.text, forKey: "memo")
+        selectedMemo.saveInBackground { (error) in
+            if error != nil{
+                print(error)
+            }else{
+                self.navigationController?.popViewController(animated: true)
+            }
+        }
     }
-    */
-
 }
